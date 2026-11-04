@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/readme/project-motion.svg" width="100%" alt="NBC LIGI KUU DATA animated overview banner" />
+</div>
+
 # NBC Ligi Kuu Data
 
 **Free, automatic match scores and league tables for the Tanzania NBC Premier League (Ligi Kuu).**
