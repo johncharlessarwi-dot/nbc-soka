@@ -92,6 +92,8 @@ def _load(path: Path) -> Any:
 
 def _season_id_for_slug(seasons_payload: dict[str, Any], slug: str) -> int | None:
     for item in seasons_payload.get("items") or []:
+        if not isinstance(item, dict):
+            continue
         if str(item.get("slug") or "") == slug:
             try:
                 return int(item["id"])
@@ -100,6 +102,8 @@ def _season_id_for_slug(seasons_payload: dict[str, Any], slug: str) -> int | Non
     # allow "2026/27" style
     alt = slug.replace("/", "-")
     for item in seasons_payload.get("items") or []:
+        if not isinstance(item, dict):
+            continue
         if str(item.get("slug") or "") == alt:
             try:
                 return int(item["id"])
