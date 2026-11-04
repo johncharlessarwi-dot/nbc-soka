@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import json
+import os
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -38,4 +40,13 @@ def read_json(path: Path) -> Any:
 
 def write_json(path: Path, obj: Any, *, pretty: bool = True) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_bytes(dumps(obj, pretty=pretty))
+    payload = dumps(obj, pretty=pretty)
+    temporary_path = None
+    try:
+        with tempfile.NamedTemporaryFile(dir=path.parent, prefix=f'.{path.name}.', delete=False) as handle:
+            temporary_path = Path(handle.name)
+            handle.write(payload)
+        os.replace(temporary_path, path)
+    finally:
+        if temporary_path is not None:
+            temporary_path.unlink(missing_ok=True)
