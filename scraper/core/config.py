@@ -34,7 +34,8 @@ def enabled_resources(config: dict[str, Any]) -> list[dict[str, Any]]:
 
 
 def http_settings(config: dict[str, Any]) -> dict[str, Any]:
-    return dict(config.get("http") or {})
+    settings = config.get('http')
+    return dict(settings) if isinstance(settings, dict) else {}
 
 
 def output_dir(config: dict[str, Any], override: Path | str | None = None) -> Path:
