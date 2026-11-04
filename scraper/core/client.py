@@ -37,6 +37,8 @@ class WPClient:
     ) -> None:
         if timeout_seconds <= 0:
             raise ValueError('timeout_seconds must be positive')
+        if min_delay_ms < 0:
+            raise ValueError('min_delay_ms cannot be negative')
         self.base_url = base_url.rstrip("/") + "/"
         self.min_delay_ms = min_delay_ms
         self._last_request_at = 0.0
