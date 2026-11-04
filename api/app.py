@@ -8,6 +8,7 @@ Run:
 from __future__ import annotations
 
 import os
+import re
 from pathlib import Path
 from typing import Any
 
@@ -248,6 +249,8 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
     @app.get("/seasons/{slug}", tags=["simple"])
     def season_simple(slug: str) -> Any:
         """One season pack (events + tables + teams when available)."""
+        if not re.fullmatch(r"\d{4}-\d{2}", slug):
+            raise HTTPException(status_code=400, detail="Invalid season slug")
         path = source_dir / "seasons" / f"{slug}.json"
         data = _load(path)
         return {
