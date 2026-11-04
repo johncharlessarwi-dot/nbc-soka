@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import time
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 
 import httpx
 from tenacity import (
@@ -79,7 +79,11 @@ class WPClient:
         return type(payload).__name__
 
     def get_json(self, path: str, params: dict[str, Any] | None = None) -> tuple[Any, httpx.Headers]:
-        url = path if path.startswith("http") else urljoin(self.base_url, path.lstrip("/"))
+        url = path if path.startswith(('http://', 'https://')) else urljoin(self.base_url, path.lstrip('/'))
+        base = urlsplit(self.base_url)
+        target = urlsplit(url)
+        if target.scheme != base.scheme or target.netloc != base.netloc:
+            raise ValueError('Cross-origin scraper URL is not allowed')
 
         @retry(
             reraise=True,
