@@ -134,6 +134,10 @@ class WPClient:
         per_page: int = 100,
         max_pages: int | None = None,
     ) -> list[Any]:
+        if not 1 <= per_page <= 100:
+            raise ValueError('per_page must be between 1 and 100')
+        if max_pages is not None and max_pages < 1:
+            raise ValueError('max_pages must be positive')
         query = dict(params or {})
         query["per_page"] = per_page
         page = int(query.get("page") or 1)
