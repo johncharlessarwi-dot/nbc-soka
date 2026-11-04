@@ -161,7 +161,10 @@ class WPClient:
             items.extend(payload)
 
             total_pages_raw = headers.get("X-WP-TotalPages") or headers.get("x-wp-totalpages")
-            total_pages = int(total_pages_raw) if total_pages_raw else page
+            try:
+                total_pages = max(page, int(total_pages_raw)) if total_pages_raw else page
+            except (TypeError, ValueError):
+                total_pages = page
             if page >= total_pages:
                 break
             if max_pages is not None and page >= max_pages:
