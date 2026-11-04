@@ -9,7 +9,7 @@ from urllib.parse import urljoin, urlsplit
 import httpx
 from tenacity import (
     retry,
-    retry_if_exception_type,
+    retry_if_exception,
     stop_after_attempt,
     wait_exponential,
 )
@@ -89,7 +89,7 @@ class WPClient:
             reraise=True,
             stop=stop_after_attempt(self._max_retries),
             wait=wait_exponential(multiplier=1.5, min=1, max=45),
-            retry=retry_if_exception_type((httpx.TransportError, httpx.TimeoutException, FetchError)),
+            retry=retry_if_exception(lambda exc: isinstance(exc, (httpx.TransportError, httpx.TimeoutException)) or (isinstance(exc, FetchError) and exc.retryable)),
         )
         def _do() -> tuple[Any, httpx.Headers]:
             self._throttle()
@@ -105,7 +105,7 @@ class WPClient:
                 raise FetchError(f"{status} from {url}: {response.text[:300]}")
             if status >= 400:
                 # 4xx other than 429: still surface body; retry a couple times in case of flaky WAF
-                raise FetchError(f"{status} from {url}: {response.text[:300]}")
+                raise FetchError(f"{status} from {url}: {response.text[:300]}", retryable=False)
 
             content_type = (response.headers.get("content-type") or "").lower()
             raw = response.content
