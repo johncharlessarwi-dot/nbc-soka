@@ -128,6 +128,8 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
     )
 
     def _resource(name: str, *, normalized: bool = True) -> Any:
+        if not re.fullmatch(r'[a-z][a-z0-9_-]{0,39}', name):
+            raise HTTPException(status_code=400, detail='Invalid resource name')
         if normalized:
             path = source_dir / "normalized" / f"{name}.json"
             if path.is_file():
