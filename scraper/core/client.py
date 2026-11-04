@@ -35,6 +35,8 @@ class WPClient:
         max_retries: int = 5,
         min_delay_ms: int = 250,
     ) -> None:
+        if timeout_seconds <= 0:
+            raise ValueError('timeout_seconds must be positive')
         self.base_url = base_url.rstrip("/") + "/"
         self.min_delay_ms = min_delay_ms
         self._last_request_at = 0.0
