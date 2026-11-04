@@ -24,8 +24,13 @@ def load_source_config(path: Path | str | None = None) -> dict[str, Any]:
 
 def enabled_resources(config: dict[str, Any]) -> list[dict[str, Any]]:
     resources = config.get("sportspress", {}).get("resources") or []
-    enabled = [r for r in resources if r.get("enabled", True)]
-    return sorted(enabled, key=lambda r: int(r.get("priority") or 99))
+    enabled = [r for r in resources if isinstance(r, dict) and r.get("enabled", True)]
+    def priority(resource: dict[str, Any]) -> int:
+        try:
+            return int(resource.get("priority") or 99)
+        except (TypeError, ValueError):
+            return 99
+    return sorted(enabled, key=priority)
 
 
 def http_settings(config: dict[str, Any]) -> dict[str, Any]:
