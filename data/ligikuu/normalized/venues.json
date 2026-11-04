@@ -13,7 +13,7 @@
       418,
       419,
       432,
-      444
+      445
     ],
     "active_season_ids": [
       288,
@@ -35,7 +35,7 @@
       "slug": "aghakan"
     },
     {
-      "count": 15,
+      "count": 19,
       "description": "",
       "id": 427,
       "name": "Airtel Stadium, Singida",
@@ -51,7 +51,7 @@
       "slug": "ali-hassan-mwinyi-stadium-tabora"
     },
     {
-      "count": 16,
+      "count": 17,
       "description": "",
       "id": 105,
       "name": "Amani Stadium, Njombe",
@@ -59,7 +59,7 @@
       "slug": "amani-stadium-njombe"
     },
     {
-      "count": 44,
+      "count": 49,
       "description": "",
       "id": 280,
       "name": "Azam Complex, DSM",
@@ -91,7 +91,7 @@
       "slug": "black-rhino-stadium"
     },
     {
-      "count": 1,
+      "count": 5,
       "description": "",
       "id": 434,
       "name": "Bukombe, Geita",
@@ -107,7 +107,7 @@
       "slug": "ccm-gairo-stadium"
     },
     {
-      "count": 35,
+      "count": 39,
       "description": "",
       "id": 275,
       "name": "CCM Kambarage - Shinyanga",
@@ -115,7 +115,7 @@
       "slug": "ccm-kambarage-shinyanga"
     },
     {
-      "count": 47,
+      "count": 52,
       "description": "",
       "id": 106,
       "name": "CCM Kirumba, Mwanza",
@@ -139,7 +139,7 @@
       "slug": "coastal-union"
     },
     {
-      "count": 1,
+      "count": 2,
       "description": "",
       "id": 426,
       "name": "Filbert Bayi Stadium, Pwani",
@@ -163,7 +163,7 @@
       "slug": "highland-estates-mbeya"
     },
     {
-      "count": 16,
+      "count": 20,
       "description": "",
       "id": 420,
       "name": "Ilulu Stadium",
@@ -171,7 +171,7 @@
       "slug": "ilulu-stadium"
     },
     {
-      "count": 71,
+      "count": 83,
       "description": "",
       "id": 29,
       "name": "Jamhuri Stadium, Dodoma",
@@ -203,7 +203,7 @@
       "slug": "kagera-sugar"
     },
     {
-      "count": 29,
+      "count": 34,
       "description": "",
       "id": 95,
       "name": "Kaitaba Stadium, Bukoba",
@@ -219,7 +219,7 @@
       "slug": "karume-stadium-mara"
     },
     {
-      "count": 65,
+      "count": 76,
       "description": "",
       "id": 309,
       "name": "KMC Complex, DSM",
@@ -227,7 +227,7 @@
       "slug": "kmc-complex"
     },
     {
-      "count": 32,
+      "count": 38,
       "description": "",
       "id": 97,
       "name": "Lake Tanganyika Stadium, Kigoma",
@@ -243,7 +243,7 @@
       "slug": "liti-stadiumsingida"
     },
     {
-      "count": 132,
+      "count": 137,
       "description": "",
       "id": 38,
       "name": "Mabatini Stadium, Pwani",
@@ -259,7 +259,7 @@
       "slug": "magogo-stadium-geita"
     },
     {
-      "count": 38,
+      "count": 44,
       "description": "",
       "id": 27,
       "name": "Majaliwa Stadium, Lindi",
@@ -267,7 +267,7 @@
       "slug": "majaliwa-stadium-lindi"
     },
     {
-      "count": 42,
+      "count": 47,
       "description": "",
       "id": 104,
       "name": "Majimaji Stadium, Songea",
@@ -275,7 +275,7 @@
       "slug": "majimaji-stadium-songea"
     },
     {
-      "count": 37,
+      "count": 39,
       "description": "",
       "id": 132,
       "name": "Manungu - Turiani, Morogoro",
@@ -291,7 +291,7 @@
       "slug": "mbeya-city"
     },
     {
-      "count": 45,
+      "count": 56,
       "description": "",
       "id": 279,
       "name": "Mej. Gen. Isamuhyo, DSM",
@@ -299,7 +299,7 @@
       "slug": "mej-gen-isamuhyo-dsm"
     },
     {
-      "count": 74,
+      "count": 82,
       "description": "",
       "id": 25,
       "name": "Mkwakwani Stadium, Tanga",
@@ -323,7 +323,7 @@
       "slug": "namungo-fc"
     },
     {
-      "count": 45,
+      "count": 51,
       "description": "",
       "id": 125,
       "name": "Nangwanda Sijaona, Mtwara",
@@ -355,7 +355,7 @@
       "slug": "nguzo-nane-simiyu"
     },
     {
-      "count": 76,
+      "count": 78,
       "description": "",
       "id": 101,
       "name": "Nyamagana Stadium, Mwanza",
@@ -363,7 +363,7 @@
       "slug": "nyamagana-stadium"
     },
     {
-      "count": 45,
+      "count": 46,
       "description": "",
       "id": 112,
       "name": "Nyankumbu Stadium, Geita",
@@ -395,7 +395,7 @@
       "slug": "samora-stadium-iringa"
     },
     {
-      "count": 113,
+      "count": 128,
       "description": "",
       "id": 143,
       "name": "Sheikh Amri Abeid, Arusha",
@@ -411,7 +411,7 @@
       "slug": "singida-bs"
     },
     {
-      "count": 92,
+      "count": 105,
       "description": "",
       "id": 31,
       "name": "Sokoine Stadium, Mbeya",
@@ -419,7 +419,7 @@
       "slug": "sokoine-stadium-mbeya"
     },
     {
-      "count": 9,
+      "count": 13,
       "description": "",
       "id": 423,
       "name": "Tabora Boys Stadium, Tabora",
@@ -427,7 +427,7 @@
       "slug": "tabora-boys-stadium-tabora"
     },
     {
-      "count": 24,
+      "count": 30,
       "description": "",
       "id": 313,
       "name": "Tanzanite Kwaraa, Manyara",
@@ -451,7 +451,7 @@
       "slug": "tff-center-miyanjani-tanga"
     },
     {
-      "count": 2,
+      "count": 7,
       "description": "",
       "id": 442,
       "name": "Uhuru Stadium",
@@ -459,7 +459,7 @@
       "slug": "uhuru-stadium"
     },
     {
-      "count": 57,
+      "count": 64,
       "description": "",
       "id": 93,
       "name": "Ushirika Stadium, Kilimanjaro",
@@ -468,6 +468,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-08-08T07:14:15+00:00",
+  "scraped_at": "2026-11-04T23:37:34+00:00",
   "source": "ligikuu"
 }
