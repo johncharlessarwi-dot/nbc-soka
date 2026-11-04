@@ -24,7 +24,10 @@ def merge_items_by_id(
     for item in existing:
         if not isinstance(item, dict) or id_key not in item:
             continue
-        by_id[item[id_key]] = item
+        try:
+            by_id[item[id_key]] = item
+        except TypeError:
+            continue
 
     extras: list[dict[str, Any]] = []
     for item in updates:
