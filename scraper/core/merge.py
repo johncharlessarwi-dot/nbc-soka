@@ -36,7 +36,11 @@ def merge_items_by_id(
         if id_key not in item:
             extras.append(item)
             continue
-        by_id[item[id_key]] = item
+        try:
+            by_id[item[id_key]] = item
+        except TypeError:
+            # Ignore source records with unhashable (list/dict) identifiers.
+            continue
 
     def _sort_key(row: dict[str, Any]) -> tuple[int, Any]:
         raw = row.get(id_key)
