@@ -55,3 +55,19 @@ def test_filter_items_by_season():
     ]
     out = filter_items_by_season_or_league(items, season_ids={431, 417}, league_ids=set())
     assert [i["id"] for i in out] == [1, 2]
+
+
+def test_filter_skips_malformed_taxonomy_ids_without_dropping_valid_matches():
+    items = [
+        {"id": 1, "seasons": ["bad", None, 431, True], "leagues": []},
+        {"id": 2, "seasons": {"unexpected": "shape"}, "leagues": ["432", "invalid"]},
+        {"id": 3, "seasons": [False, -1, "not-a-number"], "leagues": [""]},
+        {"id": 4, "seasons": ["bad"], "leagues": []},
+    ]
+    result = filter_items_by_season_or_league(items, season_ids={431}, league_ids={432})
+    assert [item["id"] for item in result] == [1, 2]
+
+
+def test_filter_rejects_boolean_taxonomy_id_collision():
+    items = [{"id": 5, "seasons": [True], "leagues": [False]}]
+    assert filter_items_by_season_or_league(items, season_ids={1}, league_ids={1}) == []
