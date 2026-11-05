@@ -184,10 +184,25 @@ def filter_items_by_season_or_league(
     """Keep items that touch any active season or league id."""
     if not season_ids and not league_ids:
         return items
+    def _safe_taxonomy_ids(values: Any) -> set[int]:
+        if not isinstance(values, (list, tuple, set)):
+            return set()
+        result: set[int] = set()
+        for value in values:
+            if isinstance(value, bool):
+                continue
+            try:
+                parsed = int(value)
+            except (TypeError, ValueError, OverflowError):
+                continue
+            if parsed > 0:
+                result.add(parsed)
+        return result
+
     out: list[dict[str, Any]] = []
     for item in items:
-        item_seasons = {int(x) for x in (item.get("seasons") or []) if x is not None}
-        item_leagues = {int(x) for x in (item.get("leagues") or []) if x is not None}
+        item_seasons = _safe_taxonomy_ids(item.get("seasons"))
+        item_leagues = _safe_taxonomy_ids(item.get("leagues"))
         if season_ids and item_seasons & season_ids:
             out.append(item)
             continue
