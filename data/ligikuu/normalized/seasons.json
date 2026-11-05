@@ -52,7 +52,7 @@
       "slug": "2025-26"
     },
     {
-      "count": 669,
+      "count": 671,
       "description": "",
       "id": 431,
       "name": "2026/27",
@@ -61,6 +61,6 @@
     }
   ],
   "resource": "seasons",
-  "scraped_at": "2026-11-04T23:37:33+00:00",
+  "scraped_at": "2026-11-05T06:36:54+00:00",
   "source": "ligikuu"
 }
