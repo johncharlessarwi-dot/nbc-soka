@@ -15650,7 +15650,7 @@
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 19407,
+      "home_team_id": 6039,
       "id": 19415,
       "is_placeholder": false,
       "leagues": [
@@ -15661,7 +15661,7 @@
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        19407,
+        6039,
         6041
       ],
       "seasons": [
@@ -15669,18 +15669,20 @@
       ],
       "slug": "19415",
       "status": "future",
-      "venues": [],
+      "venues": [
+        426
+      ],
       "winner_id": null
     },
     {
       "away_score": null,
-      "away_team_id": 19411,
+      "away_team_id": 341,
       "date": "2026-11-08T16:00:00",
       "date_gmt": "2026-11-08T13:00:00",
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 19409,
+      "home_team_id": 6043,
       "id": 19416,
       "is_placeholder": false,
       "leagues": [
@@ -15691,15 +15693,17 @@
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        19409,
-        19411
+        6043,
+        341
       ],
       "seasons": [
         431
       ],
       "slug": "19416",
       "status": "future",
-      "venues": [],
+      "venues": [
+        38
+      ],
       "winner_id": null
     },
     {
@@ -15710,7 +15714,7 @@
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 19406,
+      "home_team_id": 10893,
       "id": 19417,
       "is_placeholder": false,
       "leagues": [
@@ -15721,7 +15725,7 @@
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        19406,
+        10893,
         354
       ],
       "seasons": [
@@ -15729,7 +15733,9 @@
       ],
       "slug": "19417",
       "status": "future",
-      "venues": [],
+      "venues": [
+        105
+      ],
       "winner_id": null
     },
     {
@@ -17378,7 +17384,7 @@
     },
     {
       "away_score": null,
-      "away_team_id": 19487,
+      "away_team_id": 14178,
       "date": "2026-11-06T16:00:00",
       "date_gmt": "2026-11-06T13:00:00",
       "day": "",
@@ -17396,7 +17402,7 @@
       "raw_main_results": [],
       "raw_teams": [
         19469,
-        19487
+        14178
       ],
       "seasons": [
         431
@@ -18957,7 +18963,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-05T19:54:15+00:00",
+  "scraped_at": "2026-11-06T06:33:02+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",
