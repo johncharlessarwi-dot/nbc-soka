@@ -163,7 +163,7 @@
       "slug": "highland-estates-mbeya"
     },
     {
-      "count": 20,
+      "count": 21,
       "description": "",
       "id": 420,
       "name": "Ilulu Stadium",
@@ -219,7 +219,7 @@
       "slug": "karume-stadium-mara"
     },
     {
-      "count": 76,
+      "count": 77,
       "description": "",
       "id": 309,
       "name": "KMC Complex, DSM",
@@ -227,7 +227,7 @@
       "slug": "kmc-complex"
     },
     {
-      "count": 38,
+      "count": 39,
       "description": "",
       "id": 97,
       "name": "Lake Tanganyika Stadium, Kigoma",
@@ -275,7 +275,7 @@
       "slug": "majimaji-stadium-songea"
     },
     {
-      "count": 39,
+      "count": 40,
       "description": "",
       "id": 132,
       "name": "Manungu - Turiani, Morogoro",
@@ -355,7 +355,7 @@
       "slug": "nguzo-nane-simiyu"
     },
     {
-      "count": 78,
+      "count": 79,
       "description": "",
       "id": 101,
       "name": "Nyamagana Stadium, Mwanza",
@@ -468,6 +468,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-06T06:33:04+00:00",
+  "scraped_at": "2026-11-06T19:19:12+00:00",
   "source": "ligikuu"
 }

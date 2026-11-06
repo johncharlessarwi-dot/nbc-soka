@@ -9881,13 +9881,13 @@
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 330,
       "date": "2026-11-06T16:00:00",
       "date_gmt": "2026-11-06T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 281,
       "id": 19194,
       "is_placeholder": false,
@@ -9896,8 +9896,14 @@
       ],
       "minutes": "90",
       "name": "KMC FC vs Rhino Rangers",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "281": "draw",
+        "330": "draw"
+      },
+      "raw_main_results": [
+        "1",
+        "1"
+      ],
       "raw_teams": [
         281,
         330
@@ -9906,7 +9912,7 @@
         431
       ],
       "slug": "19194",
-      "status": "future",
+      "status": "publish",
       "venues": [
         309
       ],
@@ -17408,7 +17414,7 @@
         431
       ],
       "slug": "19491",
-      "status": "future",
+      "status": "publish",
       "venues": [
         97
       ],
@@ -18963,7 +18969,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-06T06:33:02+00:00",
+  "scraped_at": "2026-11-06T19:19:10+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",
