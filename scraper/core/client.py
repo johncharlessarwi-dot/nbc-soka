@@ -50,7 +50,7 @@ class WPClient:
                 "Accept-Language": "en-US,en;q=0.9",
             },
             timeout=httpx.Timeout(timeout_seconds, connect=min(15.0, timeout_seconds)),
-            follow_redirects=True,
+            follow_redirects=False,
         )
         self._max_retries = max(1, max_retries)
 
