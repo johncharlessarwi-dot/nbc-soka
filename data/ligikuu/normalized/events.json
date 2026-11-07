@@ -20,10 +20,10 @@
       417,
       431
     ],
-    "delta_count": 0,
+    "delta_count": 2,
     "full": false,
     "incremental": true,
-    "modified_after": "2026-11-07T04:52:30+00:00"
+    "modified_after": "2026-11-07T11:54:06+00:00"
   },
   "items": [
     {
@@ -73407,13 +73407,13 @@
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 315,
       "date": "2026-11-07T16:00:00",
       "date_gmt": "2026-11-07T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 349,
       "id": 19195,
       "is_placeholder": false,
@@ -73422,8 +73422,14 @@
       ],
       "minutes": "90",
       "name": "Stand United vs KenGold FC",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "315": "draw",
+        "349": "draw"
+      },
+      "raw_main_results": [
+        "1",
+        "1"
+      ],
       "raw_teams": [
         349,
         315
@@ -73432,20 +73438,20 @@
         431
       ],
       "slug": "19195",
-      "status": "future",
+      "status": "publish",
       "venues": [
         275
       ],
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 290,
       "date": "2026-11-07T16:00:00",
       "date_gmt": "2026-11-07T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 14179,
       "id": 19196,
       "is_placeholder": false,
@@ -73454,8 +73460,14 @@
       ],
       "minutes": "90",
       "name": "IAA SC vs Tanzania Prisons",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "14179": "draw",
+        "290": "draw"
+      },
+      "raw_main_results": [
+        "1",
+        "1"
+      ],
       "raw_teams": [
         14179,
         290
@@ -73464,7 +73476,7 @@
         431
       ],
       "slug": "19196",
-      "status": "future",
+      "status": "publish",
       "venues": [
         143
       ],
@@ -82476,6 +82488,6 @@
     }
   ],
   "resource": "events",
-  "scraped_at": "2026-11-07T12:54:10+00:00",
+  "scraped_at": "2026-11-07T21:44:59+00:00",
   "source": "ligikuu"
 }

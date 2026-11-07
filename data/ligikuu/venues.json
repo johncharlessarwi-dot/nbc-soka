@@ -515,7 +515,7 @@
           }
         ]
       },
-      "count": 17,
+      "count": 18,
       "description": "",
       "id": 105,
       "link": "https://ligikuu.co.tz/venue/amani-stadium-njombe/",
@@ -1572,7 +1572,7 @@
           }
         ]
       },
-      "count": 39,
+      "count": 40,
       "description": "",
       "id": 275,
       "link": "https://ligikuu.co.tz/venue/ccm-kambarage-shinyanga/",
@@ -2176,7 +2176,7 @@
           }
         ]
       },
-      "count": 2,
+      "count": 3,
       "description": "",
       "id": 426,
       "link": "https://ligikuu.co.tz/venue/filbert-bayi/",
@@ -7008,7 +7008,7 @@
           }
         ]
       },
-      "count": 128,
+      "count": 130,
       "description": "",
       "id": 143,
       "link": "https://ligikuu.co.tz/venue/sheikh-amri-abeid/",
@@ -8333,6 +8333,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-07T12:54:08+00:00",
+  "scraped_at": "2026-11-07T21:44:56+00:00",
   "source": "ligikuu"
 }

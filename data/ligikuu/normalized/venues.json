@@ -51,7 +51,7 @@
       "slug": "ali-hassan-mwinyi-stadium-tabora"
     },
     {
-      "count": 17,
+      "count": 18,
       "description": "",
       "id": 105,
       "name": "Amani Stadium, Njombe",
@@ -107,7 +107,7 @@
       "slug": "ccm-gairo-stadium"
     },
     {
-      "count": 39,
+      "count": 40,
       "description": "",
       "id": 275,
       "name": "CCM Kambarage - Shinyanga",
@@ -139,7 +139,7 @@
       "slug": "coastal-union"
     },
     {
-      "count": 2,
+      "count": 3,
       "description": "",
       "id": 426,
       "name": "Filbert Bayi Stadium, Pwani",
@@ -395,7 +395,7 @@
       "slug": "samora-stadium-iringa"
     },
     {
-      "count": 128,
+      "count": 130,
       "description": "",
       "id": 143,
       "name": "Sheikh Amri Abeid, Arusha",
@@ -468,6 +468,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-07T12:54:08+00:00",
+  "scraped_at": "2026-11-07T21:44:56+00:00",
   "source": "ligikuu"
 }
