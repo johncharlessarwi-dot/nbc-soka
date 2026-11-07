@@ -25,3 +25,7 @@ def test_versioned_season_rejects_slashlike_slug(tmp_path):
 def test_versioned_season_valid_missing_returns_not_found(tmp_path):
     client = TestClient(create_app(data_dir=tmp_path))
     assert client.get('/api/v1/sources/ligikuu/seasons/2026-27').status_code == 404
+
+def test_security_headers_deny_iframing(tmp_path):
+    client = TestClient(create_app(data_dir=tmp_path))
+    assert client.get('/health').headers.get('X-Frame-Options') == 'DENY'
