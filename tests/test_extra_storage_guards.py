@@ -20,3 +20,8 @@ def test_season_slug_rejects_traversal(tmp_path):
     store = DataStore(tmp_path)
     with pytest.raises(ValueError):
         store.write_season_bundle('..secret', {})
+
+def test_safe_raw_filename_stores_payload(tmp_path):
+    store = DataStore(tmp_path)
+    path = store.write_raw('events.json', {'items': []})
+    assert path.is_file()
