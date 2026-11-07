@@ -29,3 +29,7 @@ def test_versioned_season_valid_missing_returns_not_found(tmp_path):
 def test_security_headers_deny_iframing(tmp_path):
     client = TestClient(create_app(data_dir=tmp_path))
     assert client.get('/health').headers.get('X-Frame-Options') == 'DENY'
+
+def test_security_headers_disable_geolocation(tmp_path):
+    client = TestClient(create_app(data_dir=tmp_path))
+    assert 'geolocation=()' in client.get('/health').headers.get('Permissions-Policy', '')
