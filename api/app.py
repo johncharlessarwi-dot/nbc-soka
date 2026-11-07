@@ -372,6 +372,8 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
 
     @app.get("/api/v1/sources/ligikuu/seasons/{slug}")
     def season_bundle(slug: str) -> Any:
+        if not re.fullmatch(r'\d{4}-\d{2}', slug):
+            raise HTTPException(status_code=400, detail='Invalid season slug')
         path = source_dir / "seasons" / f"{slug}.json"
         return _load(path)
 
