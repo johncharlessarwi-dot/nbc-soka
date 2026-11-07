@@ -30,3 +30,8 @@ def test_safe_normalized_filename_stores_payload(tmp_path):
     store = DataStore(tmp_path)
     path = store.write_normalized('tables.json', {'items': []})
     assert path.is_file()
+
+def test_valid_season_bundle_is_written(tmp_path):
+    store = DataStore(tmp_path)
+    path = store.write_season_bundle('2026-27', {'season': '2026-27'})
+    assert path.is_file()
