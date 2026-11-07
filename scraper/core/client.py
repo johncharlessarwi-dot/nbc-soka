@@ -35,7 +35,7 @@ class WPClient:
         max_retries: int = 5,
         min_delay_ms: int = 250,
     ) -> None:
-        if timeout_seconds <= 0:
+        if not isinstance(timeout_seconds, (int, float)) or not 0 < timeout_seconds <= 120:
             raise ValueError('timeout_seconds must be positive')
         if min_delay_ms < 0:
             raise ValueError('min_delay_ms cannot be negative')
