@@ -21,3 +21,7 @@ def test_client_rejects_excessive_retries():
 def test_client_rejects_float_retry_count():
     with pytest.raises(ValueError):
         WPClient(base_url='https://example.org', user_agent='test', max_retries=1.2)
+
+def test_client_rejects_infinite_timeout():
+    with pytest.raises(ValueError):
+        WPClient(base_url='https://example.org', user_agent='test', timeout_seconds=float('inf'))
