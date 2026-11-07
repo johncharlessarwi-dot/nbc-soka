@@ -29,6 +29,8 @@ class DataStore:
             self.meta_dir = self.root / "meta"
 
     def write_artifact(self, artifact: Artifact, filename: str) -> Path:
+        if not __import__('re').fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]{0,127}\.json', filename):
+            raise ValueError('Invalid artifact filename')
         path = self.source_dir / filename
         write_json(path, artifact.model_dump(mode="json"), pretty=self.pretty)
         return path
