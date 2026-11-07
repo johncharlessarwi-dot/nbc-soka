@@ -25,3 +25,8 @@ def test_safe_raw_filename_stores_payload(tmp_path):
     store = DataStore(tmp_path)
     path = store.write_raw('events.json', {'items': []})
     assert path.is_file()
+
+def test_safe_normalized_filename_stores_payload(tmp_path):
+    store = DataStore(tmp_path)
+    path = store.write_normalized('tables.json', {'items': []})
+    assert path.is_file()
