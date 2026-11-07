@@ -15,3 +15,8 @@ def test_normalized_filename_rejects_parent_directory(tmp_path):
     store = DataStore(tmp_path)
     with pytest.raises(ValueError):
         store.write_normalized('../outside.json', {})
+
+def test_season_slug_rejects_traversal(tmp_path):
+    store = DataStore(tmp_path)
+    with pytest.raises(ValueError):
+        store.write_season_bundle('..secret', {})
