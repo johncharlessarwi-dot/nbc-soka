@@ -9849,13 +9849,13 @@
       "winner_id": 266
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 429,
       "date": "2026-11-06T16:00:00",
       "date_gmt": "2026-11-06T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 2,
       "home_team_id": 266,
       "id": 19193,
       "is_placeholder": false,
@@ -9864,8 +9864,14 @@
       ],
       "minutes": "90",
       "name": "Bigman FC vs Songea United",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "266": "win",
+        "429": "loss"
+      },
+      "raw_main_results": [
+        "2",
+        "0"
+      ],
       "raw_teams": [
         266,
         429
@@ -9874,11 +9880,11 @@
         431
       ],
       "slug": "19193",
-      "status": "future",
+      "status": "publish",
       "venues": [
         420
       ],
-      "winner_id": null
+      "winner_id": 266
     },
     {
       "away_score": 1,
@@ -15553,13 +15559,13 @@
       "winner_id": 341
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 10892,
       "date": "2026-10-31T16:00:00",
       "date_gmt": "2026-10-31T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 354,
       "id": 19412,
       "is_placeholder": false,
@@ -15568,8 +15574,14 @@
       ],
       "minutes": "90",
       "name": "Dar City vs Moro Kids",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "10892": "draw",
+        "354": "draw"
+      },
+      "raw_main_results": [
+        "0",
+        "0"
+      ],
       "raw_teams": [
         354,
         10892
@@ -15585,13 +15597,13 @@
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 337,
       "date": "2026-11-06T16:00:00",
       "date_gmt": "2026-11-06T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 354,
       "id": 19413,
       "is_placeholder": false,
@@ -15600,8 +15612,14 @@
       ],
       "minutes": "90",
       "name": "Dar City vs Pan African",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "337": "win",
+        "354": "loss"
+      },
+      "raw_main_results": [
+        "0",
+        "1"
+      ],
       "raw_teams": [
         354,
         337
@@ -15610,11 +15628,11 @@
         431
       ],
       "slug": "19413",
-      "status": "future",
+      "status": "publish",
       "venues": [
         132
       ],
-      "winner_id": null
+      "winner_id": 337
     },
     {
       "away_score": null,
@@ -17357,13 +17375,13 @@
       "winner_id": 1665
     },
     {
-      "away_score": null,
+      "away_score": 5,
       "away_team_id": 19476,
       "date": "2026-11-06T16:00:00",
       "date_gmt": "2026-11-06T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 2,
       "home_team_id": 1665,
       "id": 19490,
       "is_placeholder": false,
@@ -17372,8 +17390,14 @@
       ],
       "minutes": "90",
       "name": "Copco FC vs Madini United",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "1665": "loss",
+        "19476": "win"
+      },
+      "raw_main_results": [
+        "2",
+        "5"
+      ],
       "raw_teams": [
         1665,
         19476
@@ -17382,11 +17406,11 @@
         431
       ],
       "slug": "19490",
-      "status": "future",
+      "status": "publish",
       "venues": [
         101
       ],
-      "winner_id": null
+      "winner_id": 19476
     },
     {
       "away_score": null,
@@ -18969,7 +18993,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-06T19:19:10+00:00",
+  "scraped_at": "2026-11-07T05:52:30+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",
