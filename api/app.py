@@ -379,8 +379,9 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
 
     @app.get("/api/v1/sources/ligikuu/raw/{resource}")
     def raw_resource(resource: str) -> Any:
-        safe = resource.replace("..", "").replace("/", "")
-        return _load(source_dir / "raw" / f"{safe}.json")
+        if not re.fullmatch(r'[a-z][a-z0-9_-]{0,39}', resource):
+            raise HTTPException(status_code=400, detail='Invalid raw resource name')
+        return _load(source_dir / "raw" / f"{resource}.json")
 
     return app
 
