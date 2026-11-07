@@ -201,7 +201,7 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
             description="Season slug, e.g. 2026-27 or 2025-26",
             examples=["2026-27"],
         ),
-        season_id: int | None = Query(None, description="Internal season id (optional)"),
+        season_id: int | None = Query(None, ge=1, description="Internal season id (optional)"),
         league_id: int | None = Query(None),
         status: str | None = Query(None, description="publish = played, future = upcoming"),
         limit: int | None = Query(50, ge=1, le=1000, description="Max matches to return"),
