@@ -38,3 +38,8 @@ def test_client_rejects_invalid_start_page():
     with WPClient(base_url='https://example.org', user_agent='test') as client:
         with pytest.raises(ValueError):
             client.paginate('/events', params={'page': -1})
+
+def test_client_rejects_excessive_page_limit():
+    with WPClient(base_url='https://example.org', user_agent='test') as client:
+        with pytest.raises(ValueError):
+            client.paginate('/events', max_pages=100001)
