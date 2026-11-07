@@ -17,3 +17,7 @@ def test_client_rejects_zero_retries():
 def test_client_rejects_excessive_retries():
     with pytest.raises(ValueError):
         WPClient(base_url='https://example.org', user_agent='test', max_retries=11)
+
+def test_client_rejects_float_retry_count():
+    with pytest.raises(ValueError):
+        WPClient(base_url='https://example.org', user_agent='test', max_retries=1.2)
