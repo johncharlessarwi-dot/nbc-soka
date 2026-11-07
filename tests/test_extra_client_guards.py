@@ -13,3 +13,7 @@ def test_client_rejects_url_credentials():
 def test_client_rejects_zero_retries():
     with pytest.raises(ValueError):
         WPClient(base_url='https://example.org', user_agent='test', max_retries=0)
+
+def test_client_rejects_excessive_retries():
+    with pytest.raises(ValueError):
+        WPClient(base_url='https://example.org', user_agent='test', max_retries=11)
