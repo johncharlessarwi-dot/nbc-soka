@@ -154,6 +154,8 @@ class WPClient:
         query = dict(params or {})
         query["per_page"] = per_page
         page = int(query.get("page") or 1)
+        if not 1 <= page <= 100_000:
+            raise ValueError('Invalid starting page')
         items: list[Any] = []
 
         while True:
