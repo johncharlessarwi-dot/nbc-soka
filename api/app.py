@@ -331,7 +331,7 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
         season_id: int | None = Query(None),
         league_id: int | None = Query(None),
         status: str | None = Query(None),
-        limit: int | None = Query(None, ge=1, le=5000),
+        limit: int | None = Query(500, ge=1, le=5000),
     ) -> Any:
         payload = _resource("events")
         items = list(payload.get("items") or [])
