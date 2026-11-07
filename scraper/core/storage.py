@@ -36,6 +36,8 @@ class DataStore:
         return path
 
     def write_raw(self, name: str, payload: Any) -> Path:
+        if not __import__('re').fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]{0,127}\.json', name):
+            raise ValueError('Invalid raw filename')
         path = self.source_dir / "raw" / name
         write_json(path, payload, pretty=self.pretty)
         return path
