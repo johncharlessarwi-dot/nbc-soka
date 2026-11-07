@@ -39,6 +39,9 @@ class WPClient:
             raise ValueError('timeout_seconds must be positive')
         if not isinstance(min_delay_ms, int) or not 0 <= min_delay_ms <= 60_000:
             raise ValueError('min_delay_ms cannot be negative')
+        parsed_base = urlsplit(base_url)
+        if parsed_base.scheme not in ('https', 'http') or not parsed_base.hostname or parsed_base.username or parsed_base.password:
+            raise ValueError('Invalid scraper base URL')
         self.base_url = base_url.rstrip("/") + "/"
         self.min_delay_ms = min_delay_ms
         self._last_request_at = 0.0
