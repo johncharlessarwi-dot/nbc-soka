@@ -29,3 +29,7 @@ def test_client_rejects_infinite_timeout():
 def test_client_rejects_excessive_timeout():
     with pytest.raises(ValueError):
         WPClient(base_url='https://example.org', user_agent='test', timeout_seconds=121)
+
+def test_client_rejects_excessive_throttle():
+    with pytest.raises(ValueError):
+        WPClient(base_url='https://example.org', user_agent='test', min_delay_ms=60001)
