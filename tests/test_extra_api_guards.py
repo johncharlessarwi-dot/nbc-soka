@@ -21,3 +21,7 @@ def test_raw_resource_valid_name_goes_to_data_lookup(tmp_path):
 def test_versioned_season_rejects_slashlike_slug(tmp_path):
     client = TestClient(create_app(data_dir=tmp_path))
     assert client.get('/api/v1/sources/ligikuu/seasons/2026_27').status_code == 400
+
+def test_versioned_season_valid_missing_returns_not_found(tmp_path):
+    client = TestClient(create_app(data_dir=tmp_path))
+    assert client.get('/api/v1/sources/ligikuu/seasons/2026-27').status_code == 404
