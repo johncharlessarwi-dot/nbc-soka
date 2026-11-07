@@ -37,7 +37,7 @@ class WPClient:
     ) -> None:
         if not isinstance(timeout_seconds, (int, float)) or not 0 < timeout_seconds <= 120:
             raise ValueError('timeout_seconds must be positive')
-        if min_delay_ms < 0:
+        if not isinstance(min_delay_ms, int) or not 0 <= min_delay_ms <= 60_000:
             raise ValueError('min_delay_ms cannot be negative')
         self.base_url = base_url.rstrip("/") + "/"
         self.min_delay_ms = min_delay_ms
