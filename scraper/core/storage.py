@@ -46,6 +46,8 @@ class DataStore:
         return path
 
     def write_season_bundle(self, season_slug: str, payload: dict[str, Any]) -> Path:
+        if not __import__('re').fullmatch(r'\d{4}-\d{2}', season_slug):
+            raise ValueError('Invalid season slug')
         path = self.source_dir / "seasons" / f"{season_slug}.json"
         write_json(path, payload, pretty=self.pretty)
         return path
