@@ -17,3 +17,7 @@ def test_raw_resource_rejects_uppercase(tmp_path):
 def test_raw_resource_valid_name_goes_to_data_lookup(tmp_path):
     client = TestClient(create_app(data_dir=tmp_path))
     assert client.get('/api/v1/sources/ligikuu/raw/events').status_code == 404
+
+def test_versioned_season_rejects_slashlike_slug(tmp_path):
+    client = TestClient(create_app(data_dir=tmp_path))
+    assert client.get('/api/v1/sources/ligikuu/seasons/2026_27').status_code == 400
