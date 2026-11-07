@@ -41,3 +41,7 @@ def test_reject_nonpositive_season_id(tmp_path):
 def test_reject_nonpositive_league_id(tmp_path):
     client = TestClient(create_app(data_dir=tmp_path))
     assert client.get('/scores?league_id=0').status_code == 422
+
+def test_reject_very_long_status_filter(tmp_path):
+    client = TestClient(create_app(data_dir=tmp_path))
+    assert client.get('/scores', params={'status': 'x' * 40}).status_code == 422
