@@ -11,6 +11,8 @@ from scraper.utils.jsonio import read_json, write_json
 
 class DataStore:
     def __init__(self, root: Path, *, source_id: str = "ligikuu", pretty: bool = True) -> None:
+        if not isinstance(source_id, str) or not __import__('re').fullmatch(r'[a-z][a-z0-9_-]{0,39}', source_id):
+            raise ValueError('Invalid source identifier')
         self.root = Path(root)
         self.source_id = source_id
         self.pretty = pretty
