@@ -33,3 +33,7 @@ def test_security_headers_deny_iframing(tmp_path):
 def test_security_headers_disable_geolocation(tmp_path):
     client = TestClient(create_app(data_dir=tmp_path))
     assert 'geolocation=()' in client.get('/health').headers.get('Permissions-Policy', '')
+
+def test_reject_nonpositive_season_id(tmp_path):
+    client = TestClient(create_app(data_dir=tmp_path))
+    assert client.get('/scores?season_id=0').status_code == 422
