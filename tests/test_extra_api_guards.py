@@ -37,3 +37,7 @@ def test_security_headers_disable_geolocation(tmp_path):
 def test_reject_nonpositive_season_id(tmp_path):
     client = TestClient(create_app(data_dir=tmp_path))
     assert client.get('/scores?season_id=0').status_code == 422
+
+def test_reject_nonpositive_league_id(tmp_path):
+    client = TestClient(create_app(data_dir=tmp_path))
+    assert client.get('/scores?league_id=0').status_code == 422
