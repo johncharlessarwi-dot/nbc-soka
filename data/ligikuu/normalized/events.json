@@ -20,10 +20,10 @@
       417,
       431
     ],
-    "delta_count": 2,
+    "delta_count": 1,
     "full": false,
     "incremental": true,
-    "modified_after": "2026-11-07T20:44:54+00:00"
+    "modified_after": "2026-11-08T04:54:42+00:00"
   },
   "items": [
     {
@@ -73483,13 +73483,13 @@
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 283,
       "date": "2026-11-07T16:00:00",
       "date_gmt": "2026-11-07T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 4536,
       "id": 19197,
       "is_placeholder": false,
@@ -73498,8 +73498,14 @@
       ],
       "minutes": "90",
       "name": "TMA vs Mtibwa Sugar",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "283": "win",
+        "4536": "loss"
+      },
+      "raw_main_results": [
+        "0",
+        "1"
+      ],
       "raw_teams": [
         4536,
         283
@@ -73508,11 +73514,11 @@
         431
       ],
       "slug": "19197",
-      "status": "future",
+      "status": "publish",
       "venues": [
         143
       ],
-      "winner_id": null
+      "winner_id": 283
     },
     {
       "away_score": null,
@@ -82488,6 +82494,6 @@
     }
   ],
   "resource": "events",
-  "scraped_at": "2026-11-08T05:54:47+00:00",
+  "scraped_at": "2026-11-08T13:16:19+00:00",
   "source": "ligikuu"
 }
