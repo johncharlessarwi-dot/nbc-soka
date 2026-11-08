@@ -20,10 +20,10 @@
       417,
       431
     ],
-    "delta_count": 1,
+    "delta_count": 3,
     "full": false,
     "incremental": true,
-    "modified_after": "2026-11-08T04:54:42+00:00"
+    "modified_after": "2026-11-08T12:16:14+00:00"
   },
   "items": [
     {
@@ -73521,13 +73521,13 @@
       "winner_id": 283
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 6048,
       "date": "2026-11-08T16:00:00",
       "date_gmt": "2026-11-08T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 14180,
       "id": 19198,
       "is_placeholder": false,
@@ -73536,8 +73536,14 @@
       ],
       "minutes": "90",
       "name": "Bandari Tanzania vs Kigamboni United",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "14180": "win",
+        "6048": "loss"
+      },
+      "raw_main_results": [
+        "1",
+        "0"
+      ],
       "raw_teams": [
         14180,
         6048
@@ -73546,21 +73552,21 @@
         431
       ],
       "slug": "19198",
-      "status": "future",
+      "status": "publish",
       "venues": [
         125
       ],
-      "winner_id": null
+      "winner_id": 14180
     },
     {
-      "away_score": null,
-      "away_team_id": 17837,
+      "away_score": 3,
+      "away_team_id": 340,
       "date": "2026-11-08T16:00:00",
       "date_gmt": "2026-11-08T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
-      "home_team_id": 17858,
+      "home_score": 2,
+      "home_team_id": 326,
       "id": 19199,
       "is_placeholder": false,
       "leagues": [
@@ -73568,28 +73574,36 @@
       ],
       "minutes": "90",
       "name": "Transit Camp FC vs Mbuni",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "326": "loss",
+        "340": "win"
+      },
+      "raw_main_results": [
+        "2",
+        "3"
+      ],
       "raw_teams": [
-        17858,
-        17837
+        326,
+        340
       ],
       "seasons": [
         431
       ],
       "slug": "19199",
-      "status": "future",
-      "venues": [],
-      "winner_id": null
+      "status": "publish",
+      "venues": [
+        38
+      ],
+      "winner_id": 340
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 312,
       "date": "2026-11-08T16:00:00",
       "date_gmt": "2026-11-08T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 10894,
       "id": 19200,
       "is_placeholder": false,
@@ -73598,8 +73612,14 @@
       ],
       "minutes": "90",
       "name": "Gunners FC vs Mbeya Kwanza",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "10894": "win",
+        "312": "loss"
+      },
+      "raw_main_results": [
+        "1",
+        "0"
+      ],
       "raw_teams": [
         10894,
         312
@@ -73608,11 +73628,11 @@
         431
       ],
       "slug": "19200",
-      "status": "future",
+      "status": "publish",
       "venues": [
         29
       ],
-      "winner_id": null
+      "winner_id": 10894
     },
     {
       "away_score": null,
@@ -82494,6 +82514,6 @@
     }
   ],
   "resource": "events",
-  "scraped_at": "2026-11-08T13:16:19+00:00",
+  "scraped_at": "2026-11-08T21:58:57+00:00",
   "source": "ligikuu"
 }
