@@ -144,3 +144,13 @@ def test_resource_rejects_nonobject_payload(tmp_path: Path):
     root = _seed(tmp_path)
     write_json(root / 'ligikuu' / 'normalized' / 'events.json', ['unexpected'])
     assert TestClient(create_app(data_dir=root)).get('/scores').status_code == 503
+
+
+def test_scores_ignore_malformed_event_rows(tmp_path: Path):
+    root = _seed(tmp_path)
+    path = root / 'ligikuu' / 'normalized' / 'events.json'
+    payload = {'items': [None, 123, {'id': 1, 'status': 'publish', 'seasons': [431]}]}
+    write_json(path, payload)
+    response = TestClient(create_app(data_dir=root)).get('/scores', params={'season_id': 431})
+    assert response.status_code == 200
+    assert response.json()['count'] == 1
