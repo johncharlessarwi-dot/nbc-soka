@@ -280,8 +280,8 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
             "what": "Teams (clubs) — NBC / Ligi Kuu ecosystem",
             "source": "ligikuu",
             "updated_at": payload.get("scraped_at"),
-            "count": payload.get("count", len(payload.get("items") or [])),
-            "items": payload.get("items") or [],
+            "count": len(items),
+            "items": items,
         }
 
     @app.get("/seasons/{slug}", tags=["simple"])
