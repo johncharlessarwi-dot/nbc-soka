@@ -63,6 +63,16 @@ class SeasonPlan:
         }
 
 
+def _positive_id(value: Any) -> int | None:
+    if isinstance(value, bool):
+        return None
+    try:
+        number = int(value)
+    except (TypeError, ValueError, OverflowError):
+        return None
+    return number if number > 0 else None
+
+
 def _season_sort_key(item: dict[str, Any]) -> tuple[int, str]:
     slug = str(item.get("slug") or "")
     match = SEASON_IN_SLUG.search(slug) or SEASON_IN_SLUG.search(str(item.get("name") or ""))
