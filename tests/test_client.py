@@ -31,3 +31,10 @@ def test_boolean_retry_count_is_rejected():
 
     with pytest.raises(ValueError, match="max_retries"):
         WPClient(base_url="https://example.com/wp-json", user_agent="nbc-soka-test", max_retries=True)
+
+
+def test_boolean_throttle_delay_is_rejected():
+    import pytest
+
+    with pytest.raises(ValueError, match='min_delay_ms'):
+        WPClient(base_url='https://example.com', user_agent='nbc-soka-test', min_delay_ms=False)
