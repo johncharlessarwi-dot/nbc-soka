@@ -24,3 +24,10 @@ def test_base_url_rejects_fragment_that_misroutes_requests():
 
     with pytest.raises(ValueError, match="Invalid scraper base URL"):
         WPClient(base_url="https://example.com/wp-json#ignored-path", user_agent="nbc-soka-test")
+
+
+def test_boolean_retry_count_is_rejected():
+    import pytest
+
+    with pytest.raises(ValueError, match="max_retries"):
+        WPClient(base_url="https://example.com/wp-json", user_agent="nbc-soka-test", max_retries=True)
