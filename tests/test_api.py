@@ -191,3 +191,9 @@ def test_teams_ignore_invalid_rows_and_untrusted_count(tmp_path: Path):
     response = TestClient(create_app(data_dir=root)).get('/teams')
     assert response.status_code == 200
     assert response.json()['count'] == 1
+
+
+def test_table_rejects_invalid_taxonomy_query_ids(tmp_path: Path):
+    client = TestClient(create_app(data_dir=_seed(tmp_path)))
+    assert client.get('/table', params={'season_id': -1}).status_code == 422
+    assert client.get('/table', params={'league_id': 0}).status_code == 422
