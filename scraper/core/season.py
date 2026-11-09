@@ -109,6 +109,8 @@ def build_season_plan(
     kinds = include_kinds or frozenset({"nbc_premier", "nbc_championship"})
     focus = config_focus or {}
 
+    seasons = [s for s in seasons if isinstance(s, dict) and _positive_id(s.get('id')) is not None]
+    leagues = [l for l in leagues if isinstance(l, dict) and _positive_id(l.get('id')) is not None]
     sorted_seasons = sorted(seasons, key=_season_sort_key, reverse=True)
     recent = sorted_seasons[: max(1, keep_recent_seasons)]
     active_season_ids = [int(s["id"]) for s in recent if "id" in s]
