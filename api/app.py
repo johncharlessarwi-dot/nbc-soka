@@ -255,7 +255,8 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
         """League standings / jedwali."""
         sid = _resolve_season_id(season, season_id)
         payload = _resource("tables")
-        items = list(payload.get("items") or [])
+        raw_items = payload.get('items')
+        items = [row for row in raw_items if isinstance(row, dict)] if isinstance(raw_items, list) else []
         if sid is not None:
             items = [t for t in items if sid in (t.get("seasons") or [])]
         if league_id is not None:
