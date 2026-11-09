@@ -131,3 +131,10 @@ def test_corrupt_artifact_returns_503_without_exposing_storage_path(tmp_path: Pa
     assert response.status_code == 503
     assert 'Data temporarily unavailable' in response.text
     assert str(root) not in response.text
+
+
+def test_health_handles_nonobject_index_without_server_error(tmp_path: Path):
+    root = _seed(tmp_path)
+    write_json(root / 'ligikuu' / 'index.json', ['unexpected'])
+    response = TestClient(create_app(data_dir=root)).get('/health')
+    assert response.status_code == 503
