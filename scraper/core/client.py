@@ -120,7 +120,12 @@ class WPClient:
                 raise FetchError(f"{status} from {url}: {response.text[:300]}", retryable=False)
 
             content_type = (response.headers.get("content-type") or "").lower()
+            content_length = response.headers.get('content-length')
+            if content_length and content_length.isdigit() and int(content_length) > MAX_JSON_RESPONSE_BYTES:
+                raise FetchError('Scraper response exceeds size limit', retryable=False)
             raw = response.content
+            if len(raw) > MAX_JSON_RESPONSE_BYTES:
+                raise FetchError('Scraper response exceeds size limit', retryable=False)
             if "json" not in content_type and raw[:1] not in (b"{", b"["):
                 raise FetchError(
                     f"non-JSON from {url} (content-type={content_type!r}): {raw[:200]!r}"
