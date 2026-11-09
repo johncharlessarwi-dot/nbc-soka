@@ -68,3 +68,18 @@ def test_json_response_size_limit_rejects_oversized_content_length():
         client._client = httpx.Client(transport=httpx.MockTransport(respond))
         with pytest.raises(FetchError, match='size limit'):
             client.get_json('/events')
+
+
+def test_json_response_size_limit_rejects_actual_oversized_body():
+    import httpx
+    import pytest
+
+    body = b' ' * (25 * 1024 * 1024 + 1)
+    def respond(request):
+        return httpx.Response(200, headers={'Content-Type': 'application/json'}, content=body)
+
+    with WPClient(base_url='https://example.com', user_agent='nbc-soka-test', max_retries=1) as client:
+        client._client.close()
+        client._client = httpx.Client(transport=httpx.MockTransport(respond))
+        with pytest.raises(FetchError, match='size limit'):
+            client.get_json('/events')
