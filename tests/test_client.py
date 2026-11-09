@@ -17,3 +17,10 @@ def test_base_url_rejects_embedded_query_parameters():
 
     with pytest.raises(ValueError, match="Invalid scraper base URL"):
         WPClient(base_url="https://example.com/wp-json?token=secret", user_agent="nbc-soka-test")
+
+
+def test_base_url_rejects_fragment_that_misroutes_requests():
+    import pytest
+
+    with pytest.raises(ValueError, match="Invalid scraper base URL"):
+        WPClient(base_url="https://example.com/wp-json#ignored-path", user_agent="nbc-soka-test")
