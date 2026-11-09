@@ -122,3 +122,12 @@ def test_api_v1_still_works(tmp_path: Path):
         "/api/v1/sources/ligikuu/events", params={"season_id": 431}
     ).json()
     assert events["count"] == 1
+
+
+def test_corrupt_artifact_returns_503_without_exposing_storage_path(tmp_path: Path):
+    root = _seed(tmp_path)
+    (root / 'ligikuu' / 'normalized' / 'events.json').write_text('{malformed', encoding='utf-8')
+    response = TestClient(create_app(data_dir=root)).get('/scores')
+    assert response.status_code == 503
+    assert 'Data temporarily unavailable' in response.text
+    assert str(root) not in response.text
