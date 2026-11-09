@@ -10,3 +10,10 @@ def test_describe_payload_dict():
 def test_fetch_error_retryable_flag():
     err = FetchError("boom")
     assert err.retryable is True
+
+
+def test_base_url_rejects_embedded_query_parameters():
+    import pytest
+
+    with pytest.raises(ValueError, match="Invalid scraper base URL"):
+        WPClient(base_url="https://example.com/wp-json?token=secret", user_agent="nbc-soka-test")
