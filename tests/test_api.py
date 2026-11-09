@@ -154,3 +154,11 @@ def test_scores_ignore_malformed_event_rows(tmp_path: Path):
     response = TestClient(create_app(data_dir=root)).get('/scores', params={'season_id': 431})
     assert response.status_code == 200
     assert response.json()['count'] == 1
+
+
+def test_table_ignores_malformed_standings_rows(tmp_path: Path):
+    root = _seed(tmp_path)
+    write_json(root / 'ligikuu' / 'normalized' / 'tables.json', {'items': [None, 'invalid', {'id': 10, 'seasons': [431]}]})
+    response = TestClient(create_app(data_dir=root)).get('/table', params={'season_id': 431})
+    assert response.status_code == 200
+    assert response.json()['count'] == 1
