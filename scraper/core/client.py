@@ -55,7 +55,7 @@ class WPClient:
             timeout=httpx.Timeout(timeout_seconds, connect=min(15.0, timeout_seconds)),
             follow_redirects=False,
         )
-        if not isinstance(max_retries, int) or not 1 <= max_retries <= 10:
+        if type(max_retries) is not int or not 1 <= max_retries <= 10:
             raise ValueError('max_retries must be between 1 and 10')
         self._max_retries = max_retries
 
