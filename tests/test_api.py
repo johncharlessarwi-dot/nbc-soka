@@ -183,3 +183,11 @@ def test_season_bundle_rejects_nonobject_payload(tmp_path: Path):
     write_json(root / 'ligikuu' / 'seasons' / '2026-27.json', ['unexpected'])
     response = TestClient(create_app(data_dir=root)).get('/seasons/2026-27')
     assert response.status_code == 503
+
+
+def test_teams_ignore_invalid_rows_and_untrusted_count(tmp_path: Path):
+    root = _seed(tmp_path)
+    write_json(root / 'ligikuu' / 'normalized' / 'teams.json', {'count': 999999, 'items': [None, {'id': 1, 'name': 'Simba'}]})
+    response = TestClient(create_app(data_dir=root)).get('/teams')
+    assert response.status_code == 200
+    assert response.json()['count'] == 1
