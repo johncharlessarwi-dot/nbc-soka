@@ -274,6 +274,8 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
     def teams_simple() -> Any:
         """Clubs / timu."""
         payload = _resource("teams")
+        raw_items = payload.get('items')
+        items = [row for row in raw_items if isinstance(row, dict)] if isinstance(raw_items, list) else []
         return {
             "what": "Teams (clubs) — NBC / Ligi Kuu ecosystem",
             "source": "ligikuu",
