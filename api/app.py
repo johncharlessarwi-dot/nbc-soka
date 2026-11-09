@@ -156,8 +156,14 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
         if normalized:
             path = source_dir / "normalized" / f"{name}.json"
             if path.is_file():
-                return _load(path)
-        return _load(source_dir / f"{name}.json")
+                payload = _load(path)
+                if not isinstance(payload, dict):
+                    raise HTTPException(status_code=503, detail='Data temporarily unavailable')
+                return payload
+        payload = _load(source_dir / f"{name}.json")
+        if not isinstance(payload, dict):
+            raise HTTPException(status_code=503, detail='Data temporarily unavailable')
+        return payload
 
     def _resolve_season_id(season: str | None, season_id: int | None) -> int | None:
         if season_id is not None:
