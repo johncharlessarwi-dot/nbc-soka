@@ -38,3 +38,11 @@ def test_boolean_throttle_delay_is_rejected():
 
     with pytest.raises(ValueError, match='min_delay_ms'):
         WPClient(base_url='https://example.com', user_agent='nbc-soka-test', min_delay_ms=False)
+
+
+def test_fractional_page_size_is_rejected():
+    import pytest
+
+    with WPClient(base_url='https://example.com', user_agent='nbc-soka-test') as client:
+        with pytest.raises(ValueError, match='per_page'):
+            client.paginate('/events', per_page=2.5)
