@@ -117,7 +117,11 @@ def build_season_plan(
 
     # Ensure config-known upcoming season ids are never dropped (e.g. 2026-27).
     for s in focus.get("seasons") or []:
-        sid = int(s["id"])
+        if not isinstance(s, dict):
+            continue
+        sid = _positive_id(s.get('id'))
+        if sid is None:
+            continue
         if sid not in active_season_ids:
             # Keep configured top seasons that look current/upcoming.
             slug = str(s.get("slug") or "")
