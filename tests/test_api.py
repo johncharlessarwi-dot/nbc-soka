@@ -197,3 +197,8 @@ def test_table_rejects_invalid_taxonomy_query_ids(tmp_path: Path):
     client = TestClient(create_app(data_dir=_seed(tmp_path)))
     assert client.get('/table', params={'season_id': -1}).status_code == 422
     assert client.get('/table', params={'league_id': 0}).status_code == 422
+
+
+def test_v1_events_reject_negative_season_id(tmp_path: Path):
+    client = TestClient(create_app(data_dir=_seed(tmp_path)))
+    assert client.get('/api/v1/sources/ligikuu/events', params={'season_id': -1}).status_code == 422
