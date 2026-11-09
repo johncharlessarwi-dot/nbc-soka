@@ -138,3 +138,9 @@ def test_health_handles_nonobject_index_without_server_error(tmp_path: Path):
     write_json(root / 'ligikuu' / 'index.json', ['unexpected'])
     response = TestClient(create_app(data_dir=root)).get('/health')
     assert response.status_code == 503
+
+
+def test_resource_rejects_nonobject_payload(tmp_path: Path):
+    root = _seed(tmp_path)
+    write_json(root / 'ligikuu' / 'normalized' / 'events.json', ['unexpected'])
+    assert TestClient(create_app(data_dir=root)).get('/scores').status_code == 503
