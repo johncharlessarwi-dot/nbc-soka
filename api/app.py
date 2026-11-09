@@ -376,7 +376,8 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
         league_id: int | None = Query(None),
     ) -> Any:
         payload = _resource("tables")
-        items = list(payload.get("items") or [])
+        raw_items = payload.get('items')
+        items = [row for row in raw_items if isinstance(row, dict)] if isinstance(raw_items, list) else []
         if season_id is not None:
             items = [t for t in items if season_id in (t.get("seasons") or [])]
         if league_id is not None:
