@@ -54,3 +54,17 @@ def test_boolean_max_pages_is_rejected():
     with WPClient(base_url='https://example.com', user_agent='nbc-soka-test') as client:
         with pytest.raises(ValueError, match='max_pages'):
             client.paginate('/events', max_pages=True)
+
+
+def test_json_response_size_limit_rejects_oversized_content_length():
+    import httpx
+    import pytest
+
+    def respond(request):
+        return httpx.Response(200, headers={'Content-Length': '30000000', 'Content-Type': 'application/json'}, content=b'{}')
+
+    with WPClient(base_url='https://example.com', user_agent='nbc-soka-test', max_retries=1) as client:
+        client._client.close()
+        client._client = httpx.Client(transport=httpx.MockTransport(respond))
+        with pytest.raises(FetchError, match='size limit'):
+            client.get_json('/events')
