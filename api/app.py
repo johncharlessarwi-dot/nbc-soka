@@ -249,8 +249,8 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
     @app.get("/table", tags=["simple"])
     def table(
         season: str | None = Query(None, description="Season slug, e.g. 2026-27"),
-        season_id: int | None = Query(None),
-        league_id: int | None = Query(None),
+        season_id: int | None = Query(None, ge=1),
+        league_id: int | None = Query(None, ge=1),
     ) -> Any:
         """League standings / jedwali."""
         sid = _resolve_season_id(season, season_id)
