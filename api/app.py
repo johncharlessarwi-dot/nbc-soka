@@ -376,7 +376,7 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
 
     @app.get("/api/v1/sources/ligikuu/tables")
     def tables(
-        season_id: int | None = Query(None),
+        season_id: int | None = Query(None, ge=1),
         league_id: int | None = Query(None),
     ) -> Any:
         payload = _resource("tables")
