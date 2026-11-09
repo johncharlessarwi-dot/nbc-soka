@@ -28,7 +28,7 @@
       "slug": "2022-23"
     },
     {
-      "count": 1190,
+      "count": 1185,
       "description": "",
       "id": 235,
       "name": "2023/24",
@@ -36,7 +36,7 @@
       "slug": "2023-24"
     },
     {
-      "count": 1222,
+      "count": 1216,
       "description": "",
       "id": 288,
       "name": "2024/25",
@@ -44,7 +44,7 @@
       "slug": "2024-25"
     },
     {
-      "count": 1662,
+      "count": 1643,
       "description": "",
       "id": 417,
       "name": "2025/26",
@@ -52,7 +52,7 @@
       "slug": "2025-26"
     },
     {
-      "count": 785,
+      "count": 861,
       "description": "",
       "id": 431,
       "name": "2026/27",
@@ -61,6 +61,6 @@
     }
   ],
   "resource": "seasons",
-  "scraped_at": "2026-11-09T06:15:08+00:00",
+  "scraped_at": "2026-11-09T16:21:27+00:00",
   "source": "ligikuu"
 }

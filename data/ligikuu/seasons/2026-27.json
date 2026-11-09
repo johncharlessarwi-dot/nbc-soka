@@ -10192,18 +10192,18 @@
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 17858,
+      "home_team_id": 326,
       "id": 19202,
       "is_placeholder": false,
       "leagues": [
         445
       ],
       "minutes": "90",
-      "name": "Transit Camp FC vs Mbeya Kwanza",
+      "name": "Transit Camp FC vs Tabora United",
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        17858,
+        326,
         312
       ],
       "seasons": [
@@ -10211,7 +10211,9 @@
       ],
       "slug": "19202",
       "status": "future",
-      "venues": [],
+      "venues": [
+        38
+      ],
       "winner_id": null
     },
     {
@@ -10222,7 +10224,7 @@
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 17837,
+      "home_team_id": 340,
       "id": 19203,
       "is_placeholder": false,
       "leagues": [
@@ -10233,7 +10235,7 @@
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        17837,
+        340,
         349
       ],
       "seasons": [
@@ -10241,7 +10243,9 @@
       ],
       "slug": "19203",
       "status": "future",
-      "venues": [],
+      "venues": [
+        143
+      ],
       "winner_id": null
     },
     {
@@ -19031,7 +19035,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-09T06:15:07+00:00",
+  "scraped_at": "2026-11-09T16:21:26+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",

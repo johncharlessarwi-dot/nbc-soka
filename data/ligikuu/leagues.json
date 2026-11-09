@@ -2496,7 +2496,7 @@
           }
         ]
       },
-      "count": 733,
+      "count": 717,
       "description": "",
       "id": 419,
       "link": "https://ligikuu.co.tz/league/nbc-championship-2025-2026/",
@@ -2659,7 +2659,7 @@
           }
         ]
       },
-      "count": 297,
+      "count": 372,
       "description": "",
       "id": 445,
       "link": "https://ligikuu.co.tz/league/nbc-championship-league-2026-2027/",
@@ -3311,7 +3311,7 @@
           }
         ]
       },
-      "count": 797,
+      "count": 792,
       "description": "",
       "id": 236,
       "link": "https://ligikuu.co.tz/league/nbc-premier-league-2023-2024/",
@@ -3474,7 +3474,7 @@
           }
         ]
       },
-      "count": 811,
+      "count": 806,
       "description": "",
       "id": 287,
       "link": "https://ligikuu.co.tz/league/nbc-premier-league-2024-25/",
@@ -3637,7 +3637,7 @@
           }
         ]
       },
-      "count": 802,
+      "count": 799,
       "description": "",
       "id": 418,
       "link": "https://ligikuu.co.tz/league/nbc-premier-league-2025-2026/",
@@ -5221,6 +5221,6 @@
     }
   ],
   "resource": "leagues",
-  "scraped_at": "2026-11-09T06:15:08+00:00",
+  "scraped_at": "2026-11-09T16:21:27+00:00",
   "source": "ligikuu"
 }
