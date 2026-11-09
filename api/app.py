@@ -87,7 +87,10 @@ def _load(path: Path) -> Any:
                 "Run the scraper first, or set DATA_DIR to a folder that contains ligikuu/."
             ),
         )
-    return read_json(path)
+    try:
+        return read_json(path)
+    except (ValueError, UnicodeError, OSError) as exc:
+        raise HTTPException(status_code=503, detail='Data temporarily unavailable') from exc
 
 
 def _season_id_for_slug(seasons_payload: dict[str, Any], slug: str) -> int | None:
