@@ -17,6 +17,9 @@ from tenacity import (
 from scraper.utils.jsonio import loads
 
 
+MAX_JSON_RESPONSE_BYTES = 25 * 1024 * 1024
+
+
 class FetchError(RuntimeError):
     """Raised for HTTP/API failures that may be retried."""
 
