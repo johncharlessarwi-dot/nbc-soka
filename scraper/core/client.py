@@ -37,7 +37,7 @@ class WPClient:
     ) -> None:
         if not isinstance(timeout_seconds, (int, float)) or not 0 < timeout_seconds <= 120:
             raise ValueError('timeout_seconds must be positive')
-        if not isinstance(min_delay_ms, int) or not 0 <= min_delay_ms <= 60_000:
+        if type(min_delay_ms) is not int or not 0 <= min_delay_ms <= 60_000:
             raise ValueError('min_delay_ms cannot be negative')
         parsed_base = urlsplit(base_url)
         if (parsed_base.scheme not in ('https', 'http') or not parsed_base.hostname or parsed_base.username or parsed_base.password or parsed_base.query or parsed_base.fragment):
