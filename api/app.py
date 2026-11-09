@@ -87,7 +87,10 @@ def _load(path: Path) -> Any:
                 "Run the scraper first, or set DATA_DIR to a folder that contains ligikuu/."
             ),
         )
-    return read_json(path)
+    try:
+        return read_json(path)
+    except (ValueError, UnicodeError, OSError) as exc:
+        raise HTTPException(status_code=503, detail='Data temporarily unavailable') from exc
 
 
 def _season_id_for_slug(seasons_payload: dict[str, Any], slug: str) -> int | None:
@@ -153,8 +156,14 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
         if normalized:
             path = source_dir / "normalized" / f"{name}.json"
             if path.is_file():
-                return _load(path)
-        return _load(source_dir / f"{name}.json")
+                payload = _load(path)
+                if not isinstance(payload, dict):
+                    raise HTTPException(status_code=503, detail='Data temporarily unavailable')
+                return payload
+        payload = _load(source_dir / f"{name}.json")
+        if not isinstance(payload, dict):
+            raise HTTPException(status_code=503, detail='Data temporarily unavailable')
+        return payload
 
     def _resolve_season_id(season: str | None, season_id: int | None) -> int | None:
         if season_id is not None:
@@ -182,7 +191,10 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
         scraped_at = None
         has_data = index.is_file()
         if has_data:
-            scraped_at = _load(index).get("scraped_at")
+            index_payload = _load(index)
+            if not isinstance(index_payload, dict):
+                raise HTTPException(status_code=503, detail='Data temporarily unavailable')
+            scraped_at = index_payload.get("scraped_at")
         return {
             "ok": True,
             "service": "NBC Ligi Kuu Data",
@@ -209,7 +221,8 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
         """Match results and fixtures (simple name for /events)."""
         sid = _resolve_season_id(season, season_id)
         payload = _resource("events")
-        items = list(payload.get("items") or [])
+        raw_items = payload.get('items')
+        items = [row for row in raw_items if isinstance(row, dict)] if isinstance(raw_items, list) else []
         if sid is not None:
             items = [e for e in items if sid in (e.get("seasons") or [])]
         if league_id is not None:
@@ -236,13 +249,14 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
     @app.get("/table", tags=["simple"])
     def table(
         season: str | None = Query(None, description="Season slug, e.g. 2026-27"),
-        season_id: int | None = Query(None),
-        league_id: int | None = Query(None),
+        season_id: int | None = Query(None, ge=1),
+        league_id: int | None = Query(None, ge=1),
     ) -> Any:
         """League standings / jedwali."""
         sid = _resolve_season_id(season, season_id)
         payload = _resource("tables")
-        items = list(payload.get("items") or [])
+        raw_items = payload.get('items')
+        items = [row for row in raw_items if isinstance(row, dict)] if isinstance(raw_items, list) else []
         if sid is not None:
             items = [t for t in items if sid in (t.get("seasons") or [])]
         if league_id is not None:
@@ -260,12 +274,14 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
     def teams_simple() -> Any:
         """Clubs / timu."""
         payload = _resource("teams")
+        raw_items = payload.get('items')
+        items = [row for row in raw_items if isinstance(row, dict)] if isinstance(raw_items, list) else []
         return {
             "what": "Teams (clubs) — NBC / Ligi Kuu ecosystem",
             "source": "ligikuu",
             "updated_at": payload.get("scraped_at"),
-            "count": payload.get("count", len(payload.get("items") or [])),
-            "items": payload.get("items") or [],
+            "count": len(items),
+            "items": items,
         }
 
     @app.get("/seasons/{slug}", tags=["simple"])
@@ -275,6 +291,8 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
             raise HTTPException(status_code=400, detail="Invalid season slug")
         path = source_dir / "seasons" / f"{slug}.json"
         data = _load(path)
+        if not isinstance(data, dict):
+            raise HTTPException(status_code=503, detail='Data temporarily unavailable')
         return {
             "what": f"Season pack for {slug}",
             "source": "ligikuu",
@@ -328,13 +346,14 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
 
     @app.get("/api/v1/sources/ligikuu/events")
     def events(
-        season_id: int | None = Query(None),
-        league_id: int | None = Query(None),
-        status: str | None = Query(None),
+        season_id: int | None = Query(None, ge=1),
+        league_id: int | None = Query(None, ge=1),
+        status: str | None = Query(None, max_length=32),
         limit: int | None = Query(500, ge=1, le=5000),
     ) -> Any:
         payload = _resource("events")
-        items = list(payload.get("items") or [])
+        raw_items = payload.get('items')
+        items = [row for row in raw_items if isinstance(row, dict)] if isinstance(raw_items, list) else []
         if season_id is not None:
             items = [e for e in items if season_id in (e.get("seasons") or [])]
         if league_id is not None:
@@ -357,11 +376,12 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
 
     @app.get("/api/v1/sources/ligikuu/tables")
     def tables(
-        season_id: int | None = Query(None),
-        league_id: int | None = Query(None),
+        season_id: int | None = Query(None, ge=1),
+        league_id: int | None = Query(None, ge=1),
     ) -> Any:
         payload = _resource("tables")
-        items = list(payload.get("items") or [])
+        raw_items = payload.get('items')
+        items = [row for row in raw_items if isinstance(row, dict)] if isinstance(raw_items, list) else []
         if season_id is not None:
             items = [t for t in items if season_id in (t.get("seasons") or [])]
         if league_id is not None:

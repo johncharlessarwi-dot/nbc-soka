@@ -122,3 +122,103 @@ def test_api_v1_still_works(tmp_path: Path):
         "/api/v1/sources/ligikuu/events", params={"season_id": 431}
     ).json()
     assert events["count"] == 1
+
+
+def test_corrupt_artifact_returns_503_without_exposing_storage_path(tmp_path: Path):
+    root = _seed(tmp_path)
+    (root / 'ligikuu' / 'normalized' / 'events.json').write_text('{malformed', encoding='utf-8')
+    response = TestClient(create_app(data_dir=root)).get('/scores')
+    assert response.status_code == 503
+    assert 'Data temporarily unavailable' in response.text
+    assert str(root) not in response.text
+
+
+def test_health_handles_nonobject_index_without_server_error(tmp_path: Path):
+    root = _seed(tmp_path)
+    write_json(root / 'ligikuu' / 'index.json', ['unexpected'])
+    response = TestClient(create_app(data_dir=root)).get('/health')
+    assert response.status_code == 503
+
+
+def test_resource_rejects_nonobject_payload(tmp_path: Path):
+    root = _seed(tmp_path)
+    write_json(root / 'ligikuu' / 'normalized' / 'events.json', ['unexpected'])
+    assert TestClient(create_app(data_dir=root)).get('/scores').status_code == 503
+
+
+def test_scores_ignore_malformed_event_rows(tmp_path: Path):
+    root = _seed(tmp_path)
+    path = root / 'ligikuu' / 'normalized' / 'events.json'
+    payload = {'items': [None, 123, {'id': 1, 'status': 'publish', 'seasons': [431]}]}
+    write_json(path, payload)
+    response = TestClient(create_app(data_dir=root)).get('/scores', params={'season_id': 431})
+    assert response.status_code == 200
+    assert response.json()['count'] == 1
+
+
+def test_table_ignores_malformed_standings_rows(tmp_path: Path):
+    root = _seed(tmp_path)
+    write_json(root / 'ligikuu' / 'normalized' / 'tables.json', {'items': [None, 'invalid', {'id': 10, 'seasons': [431]}]})
+    response = TestClient(create_app(data_dir=root)).get('/table', params={'season_id': 431})
+    assert response.status_code == 200
+    assert response.json()['count'] == 1
+
+
+def test_v1_events_ignore_malformed_rows(tmp_path: Path):
+    root = _seed(tmp_path)
+    write_json(root / 'ligikuu' / 'normalized' / 'events.json', {'items': [None, {'id': 1, 'seasons': [431]}]})
+    response = TestClient(create_app(data_dir=root)).get('/api/v1/sources/ligikuu/events', params={'season_id': 431})
+    assert response.status_code == 200 and response.json()['count'] == 1
+
+
+def test_v1_tables_ignore_malformed_rows(tmp_path: Path):
+    root = _seed(tmp_path)
+    write_json(root / 'ligikuu' / 'normalized' / 'tables.json', {'items': [123, {'id': 10, 'seasons': [431]}]})
+    response = TestClient(create_app(data_dir=root)).get('/api/v1/sources/ligikuu/tables', params={'season_id': 431})
+    assert response.status_code == 200 and response.json()['count'] == 1
+
+
+def test_season_bundle_rejects_nonobject_payload(tmp_path: Path):
+    root = _seed(tmp_path)
+    write_json(root / 'ligikuu' / 'seasons' / '2026-27.json', ['unexpected'])
+    response = TestClient(create_app(data_dir=root)).get('/seasons/2026-27')
+    assert response.status_code == 503
+
+
+def test_teams_ignore_invalid_rows_and_untrusted_count(tmp_path: Path):
+    root = _seed(tmp_path)
+    write_json(root / 'ligikuu' / 'normalized' / 'teams.json', {'count': 999999, 'items': [None, {'id': 1, 'name': 'Simba'}]})
+    response = TestClient(create_app(data_dir=root)).get('/teams')
+    assert response.status_code == 200
+    assert response.json()['count'] == 1
+
+
+def test_table_rejects_invalid_taxonomy_query_ids(tmp_path: Path):
+    client = TestClient(create_app(data_dir=_seed(tmp_path)))
+    assert client.get('/table', params={'season_id': -1}).status_code == 422
+    assert client.get('/table', params={'league_id': 0}).status_code == 422
+
+
+def test_v1_events_reject_negative_season_id(tmp_path: Path):
+    client = TestClient(create_app(data_dir=_seed(tmp_path)))
+    assert client.get('/api/v1/sources/ligikuu/events', params={'season_id': -1}).status_code == 422
+
+
+def test_v1_events_reject_zero_league_id(tmp_path: Path):
+    client = TestClient(create_app(data_dir=_seed(tmp_path)))
+    assert client.get('/api/v1/sources/ligikuu/events', params={'league_id': 0}).status_code == 422
+
+
+def test_v1_tables_reject_negative_season_id(tmp_path: Path):
+    client = TestClient(create_app(data_dir=_seed(tmp_path)))
+    assert client.get('/api/v1/sources/ligikuu/tables', params={'season_id': -1}).status_code == 422
+
+
+def test_v1_tables_reject_zero_league_id(tmp_path: Path):
+    client = TestClient(create_app(data_dir=_seed(tmp_path)))
+    assert client.get('/api/v1/sources/ligikuu/tables', params={'league_id': 0}).status_code == 422
+
+
+def test_v1_events_reject_oversized_status_filter(tmp_path: Path):
+    client = TestClient(create_app(data_dir=_seed(tmp_path)))
+    assert client.get('/api/v1/sources/ligikuu/events', params={'status': 'x' * 4096}).status_code == 422

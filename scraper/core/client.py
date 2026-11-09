@@ -17,6 +17,9 @@ from tenacity import (
 from scraper.utils.jsonio import loads
 
 
+MAX_JSON_RESPONSE_BYTES = 25 * 1024 * 1024
+
+
 class FetchError(RuntimeError):
     """Raised for HTTP/API failures that may be retried."""
 
@@ -37,10 +40,10 @@ class WPClient:
     ) -> None:
         if not isinstance(timeout_seconds, (int, float)) or not 0 < timeout_seconds <= 120:
             raise ValueError('timeout_seconds must be positive')
-        if not isinstance(min_delay_ms, int) or not 0 <= min_delay_ms <= 60_000:
+        if type(min_delay_ms) is not int or not 0 <= min_delay_ms <= 60_000:
             raise ValueError('min_delay_ms cannot be negative')
         parsed_base = urlsplit(base_url)
-        if parsed_base.scheme not in ('https', 'http') or not parsed_base.hostname or parsed_base.username or parsed_base.password:
+        if (parsed_base.scheme not in ('https', 'http') or not parsed_base.hostname or parsed_base.username or parsed_base.password or parsed_base.query or parsed_base.fragment):
             raise ValueError('Invalid scraper base URL')
         self.base_url = base_url.rstrip("/") + "/"
         self.min_delay_ms = min_delay_ms
@@ -55,7 +58,7 @@ class WPClient:
             timeout=httpx.Timeout(timeout_seconds, connect=min(15.0, timeout_seconds)),
             follow_redirects=False,
         )
-        if not isinstance(max_retries, int) or not 1 <= max_retries <= 10:
+        if type(max_retries) is not int or not 1 <= max_retries <= 10:
             raise ValueError('max_retries must be between 1 and 10')
         self._max_retries = max_retries
 
@@ -117,7 +120,12 @@ class WPClient:
                 raise FetchError(f"{status} from {url}: {response.text[:300]}", retryable=False)
 
             content_type = (response.headers.get("content-type") or "").lower()
+            content_length = response.headers.get('content-length')
+            if content_length and content_length.isdigit() and int(content_length) > MAX_JSON_RESPONSE_BYTES:
+                raise FetchError('Scraper response exceeds size limit', retryable=False)
             raw = response.content
+            if len(raw) > MAX_JSON_RESPONSE_BYTES:
+                raise FetchError('Scraper response exceeds size limit', retryable=False)
             if "json" not in content_type and raw[:1] not in (b"{", b"["):
                 raise FetchError(
                     f"non-JSON from {url} (content-type={content_type!r}): {raw[:200]!r}"
@@ -147,9 +155,9 @@ class WPClient:
         per_page: int = 100,
         max_pages: int | None = None,
     ) -> list[Any]:
-        if not 1 <= per_page <= 100:
+        if type(per_page) is not int or not 1 <= per_page <= 100:
             raise ValueError('per_page must be between 1 and 100')
-        if max_pages is not None and (not isinstance(max_pages, int) or not 1 <= max_pages <= 100_000):
+        if max_pages is not None and (type(max_pages) is not int or not 1 <= max_pages <= 100_000):
             raise ValueError('max_pages must be positive')
         query = dict(params or {})
         query["per_page"] = per_page
