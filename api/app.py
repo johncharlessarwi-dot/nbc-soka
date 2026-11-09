@@ -347,7 +347,7 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
     @app.get("/api/v1/sources/ligikuu/events")
     def events(
         season_id: int | None = Query(None, ge=1),
-        league_id: int | None = Query(None),
+        league_id: int | None = Query(None, ge=1),
         status: str | None = Query(None),
         limit: int | None = Query(500, ge=1, le=5000),
     ) -> Any:
