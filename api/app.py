@@ -185,7 +185,10 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
         scraped_at = None
         has_data = index.is_file()
         if has_data:
-            scraped_at = _load(index).get("scraped_at")
+            index_payload = _load(index)
+            if not isinstance(index_payload, dict):
+                raise HTTPException(status_code=503, detail='Data temporarily unavailable')
+            scraped_at = index_payload.get("scraped_at")
         return {
             "ok": True,
             "service": "NBC Ligi Kuu Data",
