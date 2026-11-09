@@ -289,6 +289,8 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
             raise HTTPException(status_code=400, detail="Invalid season slug")
         path = source_dir / "seasons" / f"{slug}.json"
         data = _load(path)
+        if not isinstance(data, dict):
+            raise HTTPException(status_code=503, detail='Data temporarily unavailable')
         return {
             "what": f"Season pack for {slug}",
             "source": "ligikuu",
