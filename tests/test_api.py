@@ -169,3 +169,10 @@ def test_v1_events_ignore_malformed_rows(tmp_path: Path):
     write_json(root / 'ligikuu' / 'normalized' / 'events.json', {'items': [None, {'id': 1, 'seasons': [431]}]})
     response = TestClient(create_app(data_dir=root)).get('/api/v1/sources/ligikuu/events', params={'season_id': 431})
     assert response.status_code == 200 and response.json()['count'] == 1
+
+
+def test_v1_tables_ignore_malformed_rows(tmp_path: Path):
+    root = _seed(tmp_path)
+    write_json(root / 'ligikuu' / 'normalized' / 'tables.json', {'items': [123, {'id': 10, 'seasons': [431]}]})
+    response = TestClient(create_app(data_dir=root)).get('/api/v1/sources/ligikuu/tables', params={'season_id': 431})
+    assert response.status_code == 200 and response.json()['count'] == 1
