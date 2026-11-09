@@ -80,3 +80,12 @@ def test_season_plan_skips_malformed_upstream_taxonomy_ids():
     )
     assert plan.active_season_ids == [431]
     assert [c.id for c in plan.competitions] == [432]
+
+
+def test_season_plan_skips_untrusted_focus_configuration_ids():
+    plan = build_season_plan(
+        seasons=[{'id': 431, 'slug': '2026-27'}],
+        leagues=[],
+        config_focus={'seasons': [None, {'id': 'nan', 'slug': '2025-26'}, {'id': True, 'slug': '2025-26'}, {'id': 432, 'slug': '2027-28'}]},
+    )
+    assert plan.active_season_ids == [431, 432]
