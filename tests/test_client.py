@@ -46,3 +46,11 @@ def test_fractional_page_size_is_rejected():
     with WPClient(base_url='https://example.com', user_agent='nbc-soka-test') as client:
         with pytest.raises(ValueError, match='per_page'):
             client.paginate('/events', per_page=2.5)
+
+
+def test_boolean_max_pages_is_rejected():
+    import pytest
+
+    with WPClient(base_url='https://example.com', user_agent='nbc-soka-test') as client:
+        with pytest.raises(ValueError, match='max_pages'):
+            client.paginate('/events', max_pages=True)
