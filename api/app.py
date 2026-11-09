@@ -348,7 +348,7 @@ def create_app(data_dir: Path | str | None = None) -> FastAPI:
     def events(
         season_id: int | None = Query(None, ge=1),
         league_id: int | None = Query(None, ge=1),
-        status: str | None = Query(None),
+        status: str | None = Query(None, max_length=32),
         limit: int | None = Query(500, ge=1, le=5000),
     ) -> Any:
         payload = _resource("events")
