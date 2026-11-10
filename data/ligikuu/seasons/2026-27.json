@@ -10129,7 +10129,7 @@
         445
       ],
       "minutes": "90",
-      "name": "Gunners FC vs Mbeya Kwanza",
+      "name": "Gunners FC vs Tabora United",
       "outcome": {
         "10894": "win",
         "312": "loss"
@@ -15677,13 +15677,13 @@
       "winner_id": 337
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 10892,
       "date": "2026-11-07T16:00:00",
       "date_gmt": "2026-11-07T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 10893,
       "id": 19414,
       "is_placeholder": false,
@@ -15692,8 +15692,14 @@
       ],
       "minutes": "90",
       "name": "Hausang vs Moro Kids",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "10892": "draw",
+        "10893": "draw"
+      },
+      "raw_main_results": [
+        "0",
+        "0"
+      ],
       "raw_teams": [
         10893,
         10892
@@ -15702,20 +15708,20 @@
         431
       ],
       "slug": "19414",
-      "status": "future",
+      "status": "publish",
       "venues": [
         105
       ],
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 6041,
       "date": "2026-11-07T16:00:00",
       "date_gmt": "2026-11-07T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 6039,
       "id": 19415,
       "is_placeholder": false,
@@ -15724,8 +15730,14 @@
       ],
       "minutes": "90",
       "name": "Barberian vs Magnet FC",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "6039": "loss",
+        "6041": "win"
+      },
+      "raw_main_results": [
+        "0",
+        "1"
+      ],
       "raw_teams": [
         6039,
         6041
@@ -15734,20 +15746,20 @@
         431
       ],
       "slug": "19415",
-      "status": "future",
+      "status": "publish",
       "venues": [
         426
       ],
-      "winner_id": null
+      "winner_id": 6041
     },
     {
-      "away_score": null,
+      "away_score": 2,
       "away_team_id": 341,
       "date": "2026-11-08T16:00:00",
       "date_gmt": "2026-11-08T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 6043,
       "id": 19416,
       "is_placeholder": false,
@@ -15756,8 +15768,14 @@
       ],
       "minutes": "90",
       "name": "Nyumbu vs Cosmopolitan",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "341": "win",
+        "6043": "loss"
+      },
+      "raw_main_results": [
+        "1",
+        "2"
+      ],
       "raw_teams": [
         6043,
         341
@@ -15766,11 +15784,11 @@
         431
       ],
       "slug": "19416",
-      "status": "future",
+      "status": "publish",
       "venues": [
         38
       ],
-      "winner_id": null
+      "winner_id": 341
     },
     {
       "away_score": null,
@@ -15806,7 +15824,7 @@
     },
     {
       "away_score": null,
-      "away_team_id": 19411,
+      "away_team_id": 341,
       "date": "2026-11-14T16:00:00",
       "date_gmt": "2026-11-14T13:00:00",
       "day": "",
@@ -15824,7 +15842,7 @@
       "raw_main_results": [],
       "raw_teams": [
         10892,
-        19411
+        341
       ],
       "seasons": [
         431
@@ -15870,13 +15888,13 @@
     },
     {
       "away_score": null,
-      "away_team_id": 19409,
+      "away_team_id": 6043,
       "date": "2026-11-15T16:00:00",
       "date_gmt": "2026-11-15T13:00:00",
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 19407,
+      "home_team_id": 6039,
       "id": 19420,
       "is_placeholder": false,
       "leagues": [
@@ -15887,15 +15905,17 @@
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        19407,
-        19409
+        6039,
+        6043
       ],
       "seasons": [
         431
       ],
       "slug": "19420",
       "status": "future",
-      "venues": [],
+      "venues": [
+        426
+      ],
       "winner_id": null
     },
     {
@@ -17487,13 +17507,13 @@
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 2,
       "away_team_id": 311,
       "date": "2026-11-07T16:00:00",
       "date_gmt": "2026-11-07T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 3,
       "home_team_id": 19485,
       "id": 19492,
       "is_placeholder": false,
@@ -17502,8 +17522,14 @@
       ],
       "minutes": "90",
       "name": "Mt. Hanang vs African Sports",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "19485": "win",
+        "311": "loss"
+      },
+      "raw_main_results": [
+        "3",
+        "2"
+      ],
       "raw_teams": [
         19485,
         311
@@ -17512,19 +17538,19 @@
         431
       ],
       "slug": "19492",
-      "status": "future",
+      "status": "publish",
       "venues": [],
-      "winner_id": null
+      "winner_id": 19485
     },
     {
-      "away_score": null,
-      "away_team_id": 19489,
+      "away_score": 0,
+      "away_team_id": 6046,
       "date": "2026-11-08T16:00:00",
       "date_gmt": "2026-11-08T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
-      "home_team_id": 19483,
+      "home_score": 2,
+      "home_team_id": 333,
       "id": 19493,
       "is_placeholder": false,
       "leagues": [
@@ -17532,23 +17558,31 @@
       ],
       "minutes": "90",
       "name": "Alliance vs Endument",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "333": "win",
+        "6046": "loss"
+      },
+      "raw_main_results": [
+        "2",
+        "0"
+      ],
       "raw_teams": [
-        19483,
-        19489
+        333,
+        6046
       ],
       "seasons": [
         431
       ],
       "slug": "19493",
-      "status": "future",
-      "venues": [],
-      "winner_id": null
+      "status": "publish",
+      "venues": [
+        101
+      ],
+      "winner_id": 333
     },
     {
       "away_score": null,
-      "away_team_id": 19489,
+      "away_team_id": 6046,
       "date": "2026-11-13T16:00:00",
       "date_gmt": "2026-11-13T13:00:00",
       "day": "",
@@ -17566,7 +17600,7 @@
       "raw_main_results": [],
       "raw_teams": [
         19476,
-        19489
+        6046
       ],
       "seasons": [
         431
@@ -17580,7 +17614,7 @@
     },
     {
       "away_score": null,
-      "away_team_id": 19483,
+      "away_team_id": 333,
       "date": "2026-11-14T16:00:00",
       "date_gmt": "2026-11-14T13:00:00",
       "day": "",
@@ -17598,7 +17632,7 @@
       "raw_main_results": [],
       "raw_teams": [
         1665,
-        19483
+        333
       ],
       "seasons": [
         431
@@ -19035,7 +19069,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-10T01:29:20+00:00",
+  "scraped_at": "2026-11-10T14:47:43+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",

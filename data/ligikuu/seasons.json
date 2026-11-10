@@ -540,7 +540,7 @@
           }
         ]
       },
-      "count": 1185,
+      "count": 1184,
       "description": "",
       "id": 235,
       "link": "https://ligikuu.co.tz/season/2023-24/",
@@ -703,7 +703,7 @@
           }
         ]
       },
-      "count": 1216,
+      "count": 1215,
       "description": "",
       "id": 288,
       "link": "https://ligikuu.co.tz/season/2024-25/",
@@ -866,7 +866,7 @@
           }
         ]
       },
-      "count": 1643,
+      "count": 1640,
       "description": "",
       "id": 417,
       "link": "https://ligikuu.co.tz/season/2025-26/",
@@ -1029,7 +1029,7 @@
           }
         ]
       },
-      "count": 861,
+      "count": 940,
       "description": "",
       "id": 431,
       "link": "https://ligikuu.co.tz/season/2026-27/",
@@ -1146,6 +1146,6 @@
     }
   ],
   "resource": "seasons",
-  "scraped_at": "2026-11-10T01:29:21+00:00",
+  "scraped_at": "2026-11-10T14:47:44+00:00",
   "source": "ligikuu"
 }
