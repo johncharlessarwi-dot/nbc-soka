@@ -20,10 +20,10 @@
       417,
       431
     ],
-    "delta_count": 5,
+    "delta_count": 0,
     "full": false,
     "incremental": true,
-    "modified_after": "2026-11-10T00:29:20+00:00"
+    "modified_after": "2026-11-10T13:47:43+00:00"
   },
   "items": [
     {
@@ -1333,6 +1333,6 @@
     }
   ],
   "resource": "teams",
-  "scraped_at": "2026-11-10T14:47:46+00:00",
+  "scraped_at": "2026-11-10T23:14:30+00:00",
   "source": "ligikuu"
 }
