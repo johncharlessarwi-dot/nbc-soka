@@ -10282,7 +10282,7 @@
     },
     {
       "away_score": null,
-      "away_team_id": 17840,
+      "away_team_id": 4536,
       "date": "2026-11-14T16:00:00",
       "date_gmt": "2026-11-14T13:00:00",
       "day": "",
@@ -10300,7 +10300,7 @@
       "raw_main_results": [],
       "raw_teams": [
         315,
-        17840
+        4536
       ],
       "seasons": [
         431
@@ -19069,7 +19069,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-11T06:04:17+00:00",
+  "scraped_at": "2026-11-11T14:10:44+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",

@@ -20,10 +20,10 @@
       417,
       431
     ],
-    "delta_count": 0,
+    "delta_count": 1,
     "full": false,
     "incremental": true,
-    "modified_after": "2026-11-10T22:14:27+00:00"
+    "modified_after": "2026-11-11T05:04:17+00:00"
   },
   "items": [
     {
@@ -651334,13 +651334,13 @@
       "link": "https://ligikuu.co.tz/event/19205/",
       "main_results": [],
       "minutes": "90",
-      "mode": "",
-      "modified": "2026-09-10T20:23:52",
-      "modified_gmt": "2026-09-10T17:23:52",
+      "mode": "team",
+      "modified": "2026-11-11T12:08:04",
+      "modified_gmt": "2026-11-11T09:08:04",
       "offense": [],
       "outcome": [],
-      "performance": [
-        {
+      "performance": {
+        "0": {
           "assists": "Assists",
           "cleansheets": "Cleansheet",
           "goals": "Goals",
@@ -651348,29 +651348,60 @@
           "owngoals": "Own Goals",
           "penaltygoal": "Penalty Goals",
           "position": "Position"
-        }
-      ],
+        },
+        "315": [
+          {
+            "assists": "",
+            "cleansheets": "",
+            "goals": "",
+            "manofthematch": "",
+            "owngoals": "",
+            "penaltygoal": ""
+          }
+        ],
+        "4536": [
+          {
+            "assists": "",
+            "cleansheets": "",
+            "goals": "",
+            "manofthematch": "",
+            "owngoals": "",
+            "penaltygoal": ""
+          }
+        ]
+      },
       "ping_status": "closed",
-      "players": [],
+      "players": [
+        0,
+        0
+      ],
       "results": {
         "0": {
-          "firsthalf": "1st Half",
-          "goals": "Goals",
-          "outcome": "Outcome",
-          "secondhalf": "2nd Half"
+          "outcome": "Outcome"
         },
-        "17840": [],
-        "315": []
+        "315": {
+          "firsthalf": "",
+          "goals": "",
+          "secondhalf": ""
+        },
+        "4536": {
+          "firsthalf": "",
+          "goals": "",
+          "secondhalf": ""
+        }
       },
       "seasons": [
         431
       ],
       "slug": "19205",
-      "staff": [],
+      "staff": [
+        0,
+        0
+      ],
       "status": "future",
       "teams": [
         315,
-        17840
+        4536
       ],
       "template": "",
       "title": {
@@ -722830,6 +722861,6 @@
     }
   ],
   "resource": "events",
-  "scraped_at": "2026-11-11T06:04:21+00:00",
+  "scraped_at": "2026-11-11T14:10:47+00:00",
   "source": "ligikuu"
 }
