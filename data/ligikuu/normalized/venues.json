@@ -51,7 +51,7 @@
       "slug": "ali-hassan-mwinyi-stadium-tabora"
     },
     {
-      "count": 18,
+      "count": 19,
       "description": "",
       "id": 105,
       "name": "Amani Stadium, Njombe",
@@ -171,7 +171,7 @@
       "slug": "ilulu-stadium"
     },
     {
-      "count": 84,
+      "count": 85,
       "description": "",
       "id": 29,
       "name": "Jamhuri Stadium, Dodoma",
@@ -243,7 +243,7 @@
       "slug": "liti-stadiumsingida"
     },
     {
-      "count": 139,
+      "count": 140,
       "description": "",
       "id": 38,
       "name": "Mabatini Stadium, Pwani",
@@ -363,7 +363,7 @@
       "slug": "nyamagana-stadium"
     },
     {
-      "count": 46,
+      "count": 47,
       "description": "",
       "id": 112,
       "name": "Nyankumbu Stadium, Geita",
@@ -468,6 +468,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-13T06:33:32+00:00",
+  "scraped_at": "2026-11-13T19:36:35+00:00",
   "source": "ligikuu"
 }

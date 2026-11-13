@@ -20,10 +20,10 @@
       417,
       431
     ],
-    "delta_count": 0,
+    "delta_count": 1,
     "full": false,
     "incremental": true,
-    "modified_after": "2026-11-12T22:33:06+00:00"
+    "modified_after": "2026-11-13T05:33:30+00:00"
   },
   "items": [
     {
@@ -650217,7 +650217,7 @@
         "post-19201",
         "sp_event",
         "type-sp_event",
-        "status-future",
+        "status-publish",
         "hentry",
         "sp_league-nbc-championship-league-2026-2027",
         "sp_season-2026-27",
@@ -650246,15 +650246,21 @@
         445
       ],
       "link": "https://ligikuu.co.tz/event/19201/",
-      "main_results": [],
+      "main_results": [
+        "3",
+        "1"
+      ],
       "minutes": "90",
-      "mode": "",
-      "modified": "2026-09-10T20:23:52",
-      "modified_gmt": "2026-09-10T17:23:52",
+      "mode": "team",
+      "modified": "2026-11-13T18:51:58",
+      "modified_gmt": "2026-11-13T15:51:58",
       "offense": [],
-      "outcome": [],
-      "performance": [
-        {
+      "outcome": {
+        "10894": "win",
+        "14179": "loss"
+      },
+      "performance": {
+        "0": {
           "assists": "Assists",
           "cleansheets": "Cleansheet",
           "goals": "Goals",
@@ -650262,26 +650268,64 @@
           "owngoals": "Own Goals",
           "penaltygoal": "Penalty Goals",
           "position": "Position"
-        }
-      ],
+        },
+        "10894": [
+          {
+            "assists": "",
+            "cleansheets": "",
+            "goals": "",
+            "manofthematch": "",
+            "owngoals": "",
+            "penaltygoal": ""
+          }
+        ],
+        "14179": [
+          {
+            "assists": "",
+            "cleansheets": "",
+            "goals": "",
+            "manofthematch": "",
+            "owngoals": "",
+            "penaltygoal": ""
+          }
+        ]
+      },
       "ping_status": "closed",
-      "players": [],
+      "players": [
+        0,
+        0
+      ],
       "results": {
         "0": {
-          "firsthalf": "1st Half",
           "goals": "Goals",
-          "outcome": "Outcome",
-          "secondhalf": "2nd Half"
+          "outcome": "Outcome"
         },
-        "10894": [],
-        "14179": []
+        "10894": {
+          "firsthalf": "",
+          "goals": "3",
+          "outcome": [
+            "win"
+          ],
+          "secondhalf": ""
+        },
+        "14179": {
+          "firsthalf": "",
+          "goals": "1",
+          "outcome": [
+            "loss"
+          ],
+          "secondhalf": ""
+        }
       },
       "seasons": [
         431
       ],
       "slug": "19201",
-      "staff": [],
-      "status": "future",
+      "staff": [
+        0,
+        0
+      ],
+      "status": "publish",
       "teams": [
         10894,
         14179
@@ -650294,9 +650338,10 @@
       "venues": [
         29
       ],
-      "winner": null,
-      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Gunners FC vs IAA SC - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19201/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Gunners FC vs IAA SC - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19201/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/\",\"name\":\"Gunners FC vs IAA SC - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-13T13:00:00+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Gunners FC vs IAA SC\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+      "winner": 10894,
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Gunners FC vs IAA SC - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19201/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Gunners FC vs IAA SC - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19201/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-13T15:51:58+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/\",\"name\":\"Gunners FC vs IAA SC - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-13T13:00:00+00:00\",\"dateModified\":\"2026-11-13T15:51:58+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Gunners FC vs IAA SC\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
       "yoast_head_json": {
+        "article_modified_time": "2026-11-13T15:51:58+00:00",
         "canonical": "https://ligikuu.co.tz/event/19201/",
         "og_image": [
           {
@@ -650327,6 +650372,7 @@
               "breadcrumb": {
                 "@id": "https://ligikuu.co.tz/event/19201/#breadcrumb"
               },
+              "dateModified": "2026-11-13T15:51:58+00:00",
               "datePublished": "2026-11-13T13:00:00+00:00",
               "inLanguage": "en-US",
               "isPartOf": {
@@ -722861,6 +722907,6 @@
     }
   ],
   "resource": "events",
-  "scraped_at": "2026-11-13T06:33:33+00:00",
+  "scraped_at": "2026-11-13T19:36:36+00:00",
   "source": "ligikuu"
 }
