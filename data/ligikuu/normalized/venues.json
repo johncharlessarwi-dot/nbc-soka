@@ -179,7 +179,7 @@
       "slug": "jamhuri-stadium-dodoma"
     },
     {
-      "count": 68,
+      "count": 69,
       "description": "",
       "id": 30,
       "name": "Jamhuri Stadium, Morogoro",
@@ -243,7 +243,7 @@
       "slug": "liti-stadiumsingida"
     },
     {
-      "count": 140,
+      "count": 141,
       "description": "",
       "id": 38,
       "name": "Mabatini Stadium, Pwani",
@@ -267,7 +267,7 @@
       "slug": "majaliwa-stadium-lindi"
     },
     {
-      "count": 47,
+      "count": 48,
       "description": "",
       "id": 104,
       "name": "Majimaji Stadium, Songea",
@@ -355,7 +355,7 @@
       "slug": "nguzo-nane-simiyu"
     },
     {
-      "count": 80,
+      "count": 81,
       "description": "",
       "id": 101,
       "name": "Nyamagana Stadium, Mwanza",
@@ -395,7 +395,7 @@
       "slug": "samora-stadium-iringa"
     },
     {
-      "count": 130,
+      "count": 131,
       "description": "",
       "id": 143,
       "name": "Sheikh Amri Abeid, Arusha",
@@ -411,7 +411,7 @@
       "slug": "singida-bs"
     },
     {
-      "count": 105,
+      "count": 106,
       "description": "",
       "id": 31,
       "name": "Sokoine Stadium, Mbeya",
@@ -468,6 +468,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-14T06:11:38+00:00",
+  "scraped_at": "2026-11-14T13:27:24+00:00",
   "source": "ligikuu"
 }

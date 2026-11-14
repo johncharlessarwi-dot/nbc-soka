@@ -20,10 +20,10 @@
       417,
       431
     ],
-    "delta_count": 0,
+    "delta_count": 2,
     "full": false,
     "incremental": true,
-    "modified_after": "2026-11-13T18:36:32+00:00"
+    "modified_after": "2026-11-14T05:11:36+00:00"
   },
   "items": [
     {
@@ -73673,13 +73673,13 @@
       "winner_id": 10894
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 312,
       "date": "2026-11-13T16:00:00",
       "date_gmt": "2026-11-13T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 326,
       "id": 19202,
       "is_placeholder": false,
@@ -73688,8 +73688,14 @@
       ],
       "minutes": "90",
       "name": "Transit Camp FC vs Tabora United",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "312": "loss",
+        "326": "win"
+      },
+      "raw_main_results": [
+        "1",
+        "0"
+      ],
       "raw_teams": [
         326,
         312
@@ -73698,11 +73704,11 @@
         431
       ],
       "slug": "19202",
-      "status": "future",
+      "status": "publish",
       "venues": [
         38
       ],
-      "winner_id": null
+      "winner_id": 326
     },
     {
       "away_score": null,
@@ -81069,13 +81075,13 @@
       "winner_id": 333
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 6046,
       "date": "2026-11-13T16:00:00",
       "date_gmt": "2026-11-13T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 19476,
       "id": 19494,
       "is_placeholder": false,
@@ -81084,8 +81090,14 @@
       ],
       "minutes": "90",
       "name": "Madini United vs Endument",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "19476": "loss",
+        "6046": "win"
+      },
+      "raw_main_results": [
+        "0",
+        "1"
+      ],
       "raw_teams": [
         19476,
         6046
@@ -81094,11 +81106,11 @@
         431
       ],
       "slug": "19494",
-      "status": "future",
+      "status": "publish",
       "venues": [
         112
       ],
-      "winner_id": null
+      "winner_id": 6046
     },
     {
       "away_score": null,
@@ -82558,6 +82570,6 @@
     }
   ],
   "resource": "events",
-  "scraped_at": "2026-11-14T06:11:41+00:00",
+  "scraped_at": "2026-11-14T13:27:26+00:00",
   "source": "ligikuu"
 }

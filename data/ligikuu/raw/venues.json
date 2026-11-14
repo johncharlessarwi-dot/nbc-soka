@@ -2931,7 +2931,7 @@
           }
         ]
       },
-      "count": 68,
+      "count": 69,
       "description": "",
       "id": 30,
       "link": "https://ligikuu.co.tz/venue/jamhuri-stadium-morogoro/",
@@ -4139,7 +4139,7 @@
           }
         ]
       },
-      "count": 140,
+      "count": 141,
       "description": "",
       "id": 38,
       "link": "https://ligikuu.co.tz/venue/mabatini-stadium-pwani/",
@@ -4592,7 +4592,7 @@
           }
         ]
       },
-      "count": 47,
+      "count": 48,
       "description": "",
       "id": 104,
       "link": "https://ligikuu.co.tz/venue/majimaji-stadium-songea/",
@@ -6253,7 +6253,7 @@
           }
         ]
       },
-      "count": 80,
+      "count": 81,
       "description": "",
       "id": 101,
       "link": "https://ligikuu.co.tz/venue/nyamagana-stadium/",
@@ -7008,7 +7008,7 @@
           }
         ]
       },
-      "count": 130,
+      "count": 131,
       "description": "",
       "id": 143,
       "link": "https://ligikuu.co.tz/venue/sheikh-amri-abeid/",
@@ -7310,7 +7310,7 @@
           }
         ]
       },
-      "count": 105,
+      "count": 106,
       "description": "",
       "id": 31,
       "link": "https://ligikuu.co.tz/venue/sokoine-stadium-mbeya/",
@@ -8333,6 +8333,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-14T06:11:38+00:00",
+  "scraped_at": "2026-11-14T13:27:24+00:00",
   "source": "ligikuu"
 }
