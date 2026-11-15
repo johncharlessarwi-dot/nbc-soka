@@ -20,10 +20,10 @@
       417,
       431
     ],
-    "delta_count": 0,
+    "delta_count": 7,
     "full": false,
     "incremental": true,
-    "modified_after": "2026-11-14T21:18:52+00:00"
+    "modified_after": "2026-11-15T05:19:51+00:00"
   },
   "items": [
     {
@@ -73825,13 +73825,13 @@
       "winner_id": 315
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 330,
       "date": "2026-11-15T16:00:00",
       "date_gmt": "2026-11-15T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 14180,
       "id": 19206,
       "is_placeholder": false,
@@ -73840,8 +73840,14 @@
       ],
       "minutes": "90",
       "name": "Bandari Tanzania vs Rhino Rangers",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "14180": "draw",
+        "330": "draw"
+      },
+      "raw_main_results": [
+        "0",
+        "0"
+      ],
       "raw_teams": [
         14180,
         330
@@ -73850,20 +73856,20 @@
         431
       ],
       "slug": "19206",
-      "status": "future",
+      "status": "publish",
       "venues": [
         125
       ],
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 281,
       "date": "2026-11-15T16:00:00",
       "date_gmt": "2026-11-15T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 290,
       "id": 19207,
       "is_placeholder": false,
@@ -73872,8 +73878,14 @@
       ],
       "minutes": "90",
       "name": "Tanzania Prisons vs KMC FC",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "281": "loss",
+        "290": "win"
+      },
+      "raw_main_results": [
+        "1",
+        "0"
+      ],
       "raw_teams": [
         290,
         281
@@ -73882,20 +73894,20 @@
         431
       ],
       "slug": "19207",
-      "status": "future",
+      "status": "publish",
       "venues": [
         31
       ],
-      "winner_id": null
+      "winner_id": 290
     },
     {
-      "away_score": null,
+      "away_score": 2,
       "away_team_id": 266,
       "date": "2026-11-15T16:00:00",
       "date_gmt": "2026-11-15T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 6048,
       "id": 19208,
       "is_placeholder": false,
@@ -73904,8 +73916,14 @@
       ],
       "minutes": "90",
       "name": "Kigamboni United vs Bigman FC",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "266": "win",
+        "6048": "loss"
+      },
+      "raw_main_results": [
+        "1",
+        "2"
+      ],
       "raw_teams": [
         6048,
         266
@@ -73914,11 +73932,11 @@
         431
       ],
       "slug": "19208",
-      "status": "future",
+      "status": "publish",
       "venues": [
         442
       ],
-      "winner_id": null
+      "winner_id": 266
     },
     {
       "away_score": null,
@@ -79341,13 +79359,13 @@
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 341,
       "date": "2026-11-14T16:00:00",
       "date_gmt": "2026-11-14T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 10892,
       "id": 19418,
       "is_placeholder": false,
@@ -79356,8 +79374,14 @@
       ],
       "minutes": "90",
       "name": "Moro Kids vs Cosmopolitan",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "10892": "win",
+        "341": "loss"
+      },
+      "raw_main_results": [
+        "1",
+        "0"
+      ],
       "raw_teams": [
         10892,
         341
@@ -79366,11 +79390,11 @@
         431
       ],
       "slug": "19418",
-      "status": "future",
+      "status": "publish",
       "venues": [
         30
       ],
-      "winner_id": null
+      "winner_id": 10892
     },
     {
       "away_score": 1,
@@ -79411,13 +79435,13 @@
       "winner_id": 6041
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 6043,
       "date": "2026-11-15T16:00:00",
       "date_gmt": "2026-11-15T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 6039,
       "id": 19420,
       "is_placeholder": false,
@@ -79426,8 +79450,14 @@
       ],
       "minutes": "90",
       "name": "Barberian vs Nyumbu",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "6039": "loss",
+        "6043": "win"
+      },
+      "raw_main_results": [
+        "0",
+        "1"
+      ],
       "raw_teams": [
         6039,
         6043
@@ -79436,11 +79466,11 @@
         431
       ],
       "slug": "19420",
-      "status": "future",
+      "status": "publish",
       "venues": [
         426
       ],
-      "winner_id": null
+      "winner_id": 6043
     },
     {
       "away_score": null,
@@ -81181,13 +81211,13 @@
       "winner_id": 333
     },
     {
-      "away_score": null,
-      "away_team_id": 19487,
+      "away_score": 2,
+      "away_team_id": 14178,
       "date": "2026-11-15T16:00:00",
       "date_gmt": "2026-11-15T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 19485,
       "id": 19496,
       "is_placeholder": false,
@@ -81196,28 +81226,34 @@
       ],
       "minutes": "90",
       "name": "Mt. Hanang vs NKIM",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "14178": "win",
+        "19485": "loss"
+      },
+      "raw_main_results": [
+        "1",
+        "2"
+      ],
       "raw_teams": [
         19485,
-        19487
+        14178
       ],
       "seasons": [
         431
       ],
       "slug": "19496",
-      "status": "future",
+      "status": "publish",
       "venues": [],
-      "winner_id": null
+      "winner_id": 14178
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 311,
       "date": "2026-11-15T16:00:00",
       "date_gmt": "2026-11-15T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 4,
       "home_team_id": 19469,
       "id": 19497,
       "is_placeholder": false,
@@ -81226,8 +81262,14 @@
       ],
       "minutes": "90",
       "name": "Kigoma FC vs African Sports",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "19469": "win",
+        "311": "loss"
+      },
+      "raw_main_results": [
+        "4",
+        "1"
+      ],
       "raw_teams": [
         19469,
         311
@@ -81236,11 +81278,11 @@
         431
       ],
       "slug": "19497",
-      "status": "future",
+      "status": "publish",
       "venues": [
         97
       ],
-      "winner_id": null
+      "winner_id": 19469
     },
     {
       "away_score": null,
@@ -82606,6 +82648,6 @@
     }
   ],
   "resource": "events",
-  "scraped_at": "2026-11-15T06:19:55+00:00",
+  "scraped_at": "2026-11-15T18:46:56+00:00",
   "source": "ligikuu"
 }

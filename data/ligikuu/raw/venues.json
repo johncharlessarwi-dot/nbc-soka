@@ -2176,7 +2176,7 @@
           }
         ]
       },
-      "count": 3,
+      "count": 4,
       "description": "",
       "id": 426,
       "link": "https://ligikuu.co.tz/venue/filbert-bayi/",
@@ -3837,7 +3837,7 @@
           }
         ]
       },
-      "count": 39,
+      "count": 40,
       "description": "",
       "id": 97,
       "link": "https://ligikuu.co.tz/venue/lake-tanganyika-stadium-kigoma/",
@@ -5649,7 +5649,7 @@
           }
         ]
       },
-      "count": 52,
+      "count": 53,
       "description": "",
       "id": 125,
       "link": "https://ligikuu.co.tz/venue/nangwanda-sijaona-stadium/",
@@ -7310,7 +7310,7 @@
           }
         ]
       },
-      "count": 106,
+      "count": 107,
       "description": "",
       "id": 31,
       "link": "https://ligikuu.co.tz/venue/sokoine-stadium-mbeya/",
@@ -8065,7 +8065,7 @@
           }
         ]
       },
-      "count": 7,
+      "count": 8,
       "description": "",
       "id": 442,
       "link": "https://ligikuu.co.tz/venue/uhuru-stadium/",
@@ -8333,6 +8333,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-15T06:19:53+00:00",
+  "scraped_at": "2026-11-15T18:46:53+00:00",
   "source": "ligikuu"
 }

@@ -139,7 +139,7 @@
       "slug": "coastal-union"
     },
     {
-      "count": 3,
+      "count": 4,
       "description": "",
       "id": 426,
       "name": "Filbert Bayi Stadium, Pwani",
@@ -227,7 +227,7 @@
       "slug": "kmc-complex"
     },
     {
-      "count": 39,
+      "count": 40,
       "description": "",
       "id": 97,
       "name": "Lake Tanganyika Stadium, Kigoma",
@@ -323,7 +323,7 @@
       "slug": "namungo-fc"
     },
     {
-      "count": 52,
+      "count": 53,
       "description": "",
       "id": 125,
       "name": "Nangwanda Sijaona, Mtwara",
@@ -411,7 +411,7 @@
       "slug": "singida-bs"
     },
     {
-      "count": 106,
+      "count": 107,
       "description": "",
       "id": 31,
       "name": "Sokoine Stadium, Mbeya",
@@ -451,7 +451,7 @@
       "slug": "tff-center-miyanjani-tanga"
     },
     {
-      "count": 7,
+      "count": 8,
       "description": "",
       "id": 442,
       "name": "Uhuru Stadium",
@@ -468,6 +468,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-15T06:19:53+00:00",
+  "scraped_at": "2026-11-15T18:46:53+00:00",
   "source": "ligikuu"
 }
