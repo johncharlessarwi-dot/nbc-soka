@@ -10522,7 +10522,7 @@
     },
     {
       "away_score": null,
-      "away_team_id": 17858,
+      "away_team_id": 326,
       "date": "2026-11-20T16:00:00",
       "date_gmt": "2026-11-20T13:00:00",
       "day": "",
@@ -10540,7 +10540,7 @@
       "raw_main_results": [],
       "raw_teams": [
         349,
-        17858
+        326
       ],
       "seasons": [
         431
@@ -10592,7 +10592,7 @@
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 17840,
+      "home_team_id": 4536,
       "id": 19213,
       "is_placeholder": false,
       "leagues": [
@@ -10603,7 +10603,7 @@
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        17840,
+        4536,
         281
       ],
       "seasons": [
@@ -10611,7 +10611,9 @@
       ],
       "slug": "19213",
       "status": "future",
-      "venues": [],
+      "venues": [
+        143
+      ],
       "winner_id": null
     },
     {
@@ -19165,7 +19167,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-15T18:46:51+00:00",
+  "scraped_at": "2026-11-16T06:18:27+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",
