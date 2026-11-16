@@ -20,10 +20,10 @@
       417,
       431
     ],
-    "delta_count": 2,
+    "delta_count": 12,
     "full": false,
     "incremental": true,
-    "modified_after": "2026-11-15T17:46:51+00:00"
+    "modified_after": "2026-11-16T05:18:27+00:00"
   },
   "items": [
     {
@@ -596855,8 +596855,8 @@
         "protected": false,
         "rendered": ""
       },
-      "date": "2026-12-11T16:15:00",
-      "date_gmt": "2026-12-11T13:15:00",
+      "date": "2026-12-12T16:15:00",
+      "date_gmt": "2026-12-12T13:15:00",
       "day": "",
       "defense": [],
       "excerpt": {
@@ -596875,13 +596875,13 @@
       "link": "https://ligikuu.co.tz/event/17402/",
       "main_results": [],
       "minutes": "90",
-      "mode": "",
-      "modified": "2026-07-29T10:35:37",
-      "modified_gmt": "2026-07-29T07:35:37",
+      "mode": "team",
+      "modified": "2026-11-16T10:42:51",
+      "modified_gmt": "2026-11-16T07:42:51",
       "offense": [],
       "outcome": [],
-      "performance": [
-        {
+      "performance": {
+        "0": {
           "assists": "Assists",
           "cleansheets": "Cleansheet",
           "goals": "Goals",
@@ -596889,25 +596889,56 @@
           "owngoals": "Own Goals",
           "penaltygoal": "Penalty Goals",
           "position": "Position"
-        }
-      ],
+        },
+        "291": [
+          {
+            "assists": "",
+            "cleansheets": "",
+            "goals": "",
+            "manofthematch": "",
+            "owngoals": "",
+            "penaltygoal": ""
+          }
+        ],
+        "325": [
+          {
+            "assists": "",
+            "cleansheets": "",
+            "goals": "",
+            "manofthematch": "",
+            "owngoals": "",
+            "penaltygoal": ""
+          }
+        ]
+      },
       "ping_status": "closed",
-      "players": [],
+      "players": [
+        0,
+        0
+      ],
       "results": {
         "0": {
-          "firsthalf": "1st Half",
-          "goals": "Goals",
-          "outcome": "Outcome",
-          "secondhalf": "2nd Half"
+          "outcome": "Outcome"
         },
-        "291": [],
-        "325": []
+        "291": {
+          "firsthalf": "",
+          "goals": "",
+          "secondhalf": ""
+        },
+        "325": {
+          "firsthalf": "",
+          "goals": "",
+          "secondhalf": ""
+        }
       },
       "seasons": [
         431
       ],
       "slug": "17402",
-      "staff": [],
+      "staff": [
+        0,
+        0
+      ],
       "status": "future",
       "teams": [
         325,
@@ -596922,7 +596953,7 @@
         143
       ],
       "winner": null,
-      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>TRA United vs Simba SC - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/17402/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"TRA United vs Simba SC - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/17402/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/17402\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/17402\\/\",\"name\":\"TRA United vs Simba SC - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-12-11T13:15:00+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/17402\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/17402\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/17402\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"TRA United vs Simba SC\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>TRA United vs Simba SC - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/17402/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"TRA United vs Simba SC - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/17402/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/17402\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/17402\\/\",\"name\":\"TRA United vs Simba SC - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-12-12T13:15:00+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/17402\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/17402\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/17402\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"TRA United vs Simba SC\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
       "yoast_head_json": {
         "canonical": "https://ligikuu.co.tz/event/17402/",
         "og_image": [
@@ -596954,7 +596985,7 @@
               "breadcrumb": {
                 "@id": "https://ligikuu.co.tz/event/17402/#breadcrumb"
               },
-              "datePublished": "2026-12-11T13:15:00+00:00",
+              "datePublished": "2026-12-12T13:15:00+00:00",
               "inLanguage": "en-US",
               "isPartOf": {
                 "@id": "https://ligikuu.co.tz/#website"
@@ -650252,8 +650283,8 @@
       ],
       "minutes": "90",
       "mode": "team",
-      "modified": "2026-11-13T18:51:58",
-      "modified_gmt": "2026-11-13T15:51:58",
+      "modified": "2026-11-16T12:20:28",
+      "modified_gmt": "2026-11-16T09:20:28",
       "offense": [],
       "outcome": {
         "10894": "win",
@@ -650269,31 +650300,76 @@
           "penaltygoal": "Penalty Goals",
           "position": "Position"
         },
-        "10894": [
-          {
+        "10894": {
+          "0": {
             "assists": "",
             "cleansheets": "",
             "goals": "",
             "manofthematch": "",
             "owngoals": "",
             "penaltygoal": ""
+          },
+          "20437": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (35')",
+            "manofthematch": "0",
+            "number": "35",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "5"
+            ],
+            "status": "lineup",
+            "sub": "0"
+          },
+          "7354": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "2 (15', 44')",
+            "manofthematch": "0",
+            "number": "13",
+            "owngoals": "",
+            "penaltygoal": "1",
+            "position": [
+              "5"
+            ],
+            "status": "lineup",
+            "sub": "0"
           }
-        ],
-        "14179": [
-          {
+        },
+        "14179": {
+          "0": {
             "assists": "",
             "cleansheets": "",
             "goals": "",
             "manofthematch": "",
             "owngoals": "",
             "penaltygoal": ""
+          },
+          "19596": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (57')",
+            "manofthematch": "0",
+            "number": "25",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "6"
+            ],
+            "status": "lineup",
+            "sub": "0"
           }
-        ]
+        }
       },
       "ping_status": "closed",
       "players": [
         0,
-        0
+        7354,
+        20437,
+        0,
+        19596
       ],
       "results": {
         "0": {
@@ -650339,9 +650415,9 @@
         29
       ],
       "winner": 10894,
-      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Gunners FC vs IAA SC - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19201/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Gunners FC vs IAA SC - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19201/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-13T15:51:58+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/\",\"name\":\"Gunners FC vs IAA SC - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-13T13:00:00+00:00\",\"dateModified\":\"2026-11-13T15:51:58+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Gunners FC vs IAA SC\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Gunners FC vs IAA SC - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19201/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Gunners FC vs IAA SC - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19201/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-16T09:20:28+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/\",\"name\":\"Gunners FC vs IAA SC - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-13T13:00:00+00:00\",\"dateModified\":\"2026-11-16T09:20:28+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19201\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Gunners FC vs IAA SC\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
       "yoast_head_json": {
-        "article_modified_time": "2026-11-13T15:51:58+00:00",
+        "article_modified_time": "2026-11-16T09:20:28+00:00",
         "canonical": "https://ligikuu.co.tz/event/19201/",
         "og_image": [
           {
@@ -650372,7 +650448,7 @@
               "breadcrumb": {
                 "@id": "https://ligikuu.co.tz/event/19201/#breadcrumb"
               },
-              "dateModified": "2026-11-13T15:51:58+00:00",
+              "dateModified": "2026-11-16T09:20:28+00:00",
               "datePublished": "2026-11-13T13:00:00+00:00",
               "inLanguage": "en-US",
               "isPartOf": {
@@ -650555,8 +650631,8 @@
       ],
       "minutes": "90",
       "mode": "team",
-      "modified": "2026-11-14T12:21:02",
-      "modified_gmt": "2026-11-14T09:21:02",
+      "modified": "2026-11-16T12:13:19",
+      "modified_gmt": "2026-11-16T09:13:19",
       "offense": [],
       "outcome": {
         "312": "loss",
@@ -650582,20 +650658,50 @@
             "penaltygoal": ""
           }
         ],
-        "326": [
-          {
+        "326": {
+          "0": {
             "assists": "",
             "cleansheets": "",
             "goals": "",
             "manofthematch": "",
             "owngoals": "",
             "penaltygoal": ""
+          },
+          "14561": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (8')",
+            "manofthematch": "0",
+            "number": "19",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "5"
+            ],
+            "status": "lineup",
+            "sub": "0"
+          },
+          "15313": {
+            "assists": "",
+            "cleansheets": "1",
+            "goals": "",
+            "manofthematch": "0",
+            "number": "30",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "3"
+            ],
+            "status": "lineup",
+            "sub": "0"
           }
-        ]
+        }
       },
       "ping_status": "closed",
       "players": [
         0,
+        14561,
+        15313,
         0
       ],
       "results": {
@@ -650642,9 +650748,9 @@
         38
       ],
       "winner": 326,
-      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Transit Camp FC vs Tabora United - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19202/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Transit Camp FC vs Tabora United - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19202/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-14T09:21:02+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19202\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19202\\/\",\"name\":\"Transit Camp FC vs Tabora United - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-13T13:00:00+00:00\",\"dateModified\":\"2026-11-14T09:21:02+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19202\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19202\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19202\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Transit Camp FC vs Tabora United\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Transit Camp FC vs Tabora United - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19202/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Transit Camp FC vs Tabora United - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19202/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-16T09:13:19+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19202\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19202\\/\",\"name\":\"Transit Camp FC vs Tabora United - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-13T13:00:00+00:00\",\"dateModified\":\"2026-11-16T09:13:19+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19202\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19202\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19202\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Transit Camp FC vs Tabora United\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
       "yoast_head_json": {
-        "article_modified_time": "2026-11-14T09:21:02+00:00",
+        "article_modified_time": "2026-11-16T09:13:19+00:00",
         "canonical": "https://ligikuu.co.tz/event/19202/",
         "og_image": [
           {
@@ -650675,7 +650781,7 @@
               "breadcrumb": {
                 "@id": "https://ligikuu.co.tz/event/19202/#breadcrumb"
               },
-              "dateModified": "2026-11-14T09:21:02+00:00",
+              "dateModified": "2026-11-16T09:13:19+00:00",
               "datePublished": "2026-11-13T13:00:00+00:00",
               "inLanguage": "en-US",
               "isPartOf": {
@@ -650858,8 +650964,8 @@
       ],
       "minutes": "90",
       "mode": "team",
-      "modified": "2026-11-14T19:57:45",
-      "modified_gmt": "2026-11-14T16:57:45",
+      "modified": "2026-11-16T13:26:07",
+      "modified_gmt": "2026-11-16T10:26:07",
       "offense": [],
       "outcome": {
         "340": "win",
@@ -650875,16 +650981,58 @@
           "penaltygoal": "Penalty Goals",
           "position": "Position"
         },
-        "340": [
-          {
+        "340": {
+          "0": {
             "assists": "",
             "cleansheets": "",
             "goals": "",
             "manofthematch": "",
             "owngoals": "",
             "penaltygoal": ""
+          },
+          "19621": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (31')",
+            "manofthematch": "0",
+            "number": "29",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "6"
+            ],
+            "status": "lineup",
+            "sub": "0"
+          },
+          "19884": {
+            "assists": "",
+            "cleansheets": "1",
+            "goals": "",
+            "manofthematch": "0",
+            "number": "18",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "3"
+            ],
+            "status": "lineup",
+            "sub": "0"
+          },
+          "20077": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (21')",
+            "manofthematch": "0",
+            "number": "24",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "6"
+            ],
+            "status": "lineup",
+            "sub": "0"
           }
-        ],
+        },
         "349": [
           {
             "assists": "",
@@ -650899,6 +651047,9 @@
       "ping_status": "closed",
       "players": [
         0,
+        19884,
+        20077,
+        19621,
         0
       ],
       "results": {
@@ -650945,9 +651096,9 @@
         143
       ],
       "winner": 340,
-      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Mbuni vs Stand United - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19203/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Mbuni vs Stand United - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19203/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-14T16:57:45+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19203\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19203\\/\",\"name\":\"Mbuni vs Stand United - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-14T13:00:00+00:00\",\"dateModified\":\"2026-11-14T16:57:45+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19203\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19203\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19203\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Mbuni vs Stand United\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Mbuni vs Stand United - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19203/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Mbuni vs Stand United - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19203/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-16T10:26:07+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19203\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19203\\/\",\"name\":\"Mbuni vs Stand United - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-14T13:00:00+00:00\",\"dateModified\":\"2026-11-16T10:26:07+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19203\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19203\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19203\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Mbuni vs Stand United\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
       "yoast_head_json": {
-        "article_modified_time": "2026-11-14T16:57:45+00:00",
+        "article_modified_time": "2026-11-16T10:26:07+00:00",
         "canonical": "https://ligikuu.co.tz/event/19203/",
         "og_image": [
           {
@@ -650978,7 +651129,7 @@
               "breadcrumb": {
                 "@id": "https://ligikuu.co.tz/event/19203/#breadcrumb"
               },
-              "dateModified": "2026-11-14T16:57:45+00:00",
+              "dateModified": "2026-11-16T10:26:07+00:00",
               "datePublished": "2026-11-14T13:00:00+00:00",
               "inLanguage": "en-US",
               "isPartOf": {
@@ -651161,8 +651312,8 @@
       ],
       "minutes": "90",
       "mode": "team",
-      "modified": "2026-11-14T20:00:00",
-      "modified_gmt": "2026-11-14T17:00:00",
+      "modified": "2026-11-16T13:00:40",
+      "modified_gmt": "2026-11-16T10:00:40",
       "offense": [],
       "outcome": {
         "283": "win",
@@ -651178,31 +651329,91 @@
           "penaltygoal": "Penalty Goals",
           "position": "Position"
         },
-        "283": [
-          {
+        "283": {
+          "0": {
             "assists": "",
             "cleansheets": "",
             "goals": "",
             "manofthematch": "",
             "owngoals": "",
             "penaltygoal": ""
+          },
+          "5074": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (90')",
+            "manofthematch": "0",
+            "number": "2",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "5"
+            ],
+            "status": "lineup",
+            "sub": "0"
+          },
+          "5373": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (16')",
+            "manofthematch": "0",
+            "number": "15",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "4"
+            ],
+            "status": "lineup",
+            "sub": "0"
+          },
+          "5593": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (85')",
+            "manofthematch": "0",
+            "number": "10",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "6"
+            ],
+            "status": "lineup",
+            "sub": "0"
           }
-        ],
-        "429": [
-          {
+        },
+        "429": {
+          "0": {
             "assists": "",
             "cleansheets": "",
             "goals": "",
             "manofthematch": "",
             "owngoals": "",
             "penaltygoal": ""
+          },
+          "15356": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (52')",
+            "manofthematch": "0",
+            "number": "29",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "4"
+            ],
+            "status": "lineup",
+            "sub": "0"
           }
-        ]
+        }
       },
       "ping_status": "closed",
       "players": [
         0,
-        0
+        15356,
+        0,
+        5074,
+        5593,
+        5373
       ],
       "results": {
         "0": {
@@ -651248,9 +651459,9 @@
         104
       ],
       "winner": 283,
-      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Songea United vs Mtibwa Sugar - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19204/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Songea United vs Mtibwa Sugar - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19204/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-14T17:00:00+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19204\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19204\\/\",\"name\":\"Songea United vs Mtibwa Sugar - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-14T13:00:00+00:00\",\"dateModified\":\"2026-11-14T17:00:00+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19204\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19204\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19204\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Songea United vs Mtibwa Sugar\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Songea United vs Mtibwa Sugar - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19204/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Songea United vs Mtibwa Sugar - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19204/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-16T10:00:40+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19204\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19204\\/\",\"name\":\"Songea United vs Mtibwa Sugar - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-14T13:00:00+00:00\",\"dateModified\":\"2026-11-16T10:00:40+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19204\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19204\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19204\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Songea United vs Mtibwa Sugar\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
       "yoast_head_json": {
-        "article_modified_time": "2026-11-14T17:00:00+00:00",
+        "article_modified_time": "2026-11-16T10:00:40+00:00",
         "canonical": "https://ligikuu.co.tz/event/19204/",
         "og_image": [
           {
@@ -651281,7 +651492,7 @@
               "breadcrumb": {
                 "@id": "https://ligikuu.co.tz/event/19204/#breadcrumb"
               },
-              "dateModified": "2026-11-14T17:00:00+00:00",
+              "dateModified": "2026-11-16T10:00:40+00:00",
               "datePublished": "2026-11-14T13:00:00+00:00",
               "inLanguage": "en-US",
               "isPartOf": {
@@ -651464,8 +651675,8 @@
       ],
       "minutes": "90",
       "mode": "team",
-      "modified": "2026-11-14T20:01:04",
-      "modified_gmt": "2026-11-14T17:01:04",
+      "modified": "2026-11-16T12:50:52",
+      "modified_gmt": "2026-11-16T09:50:52",
       "offense": [],
       "outcome": {
         "315": "win",
@@ -651481,16 +651692,42 @@
           "penaltygoal": "Penalty Goals",
           "position": "Position"
         },
-        "315": [
-          {
+        "315": {
+          "0": {
             "assists": "",
             "cleansheets": "",
             "goals": "",
             "manofthematch": "",
             "owngoals": "",
             "penaltygoal": ""
+          },
+          "15371": {
+            "assists": "",
+            "cleansheets": "1",
+            "goals": "",
+            "manofthematch": "0",
+            "number": "32",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "3"
+            ],
+            "status": "lineup",
+            "sub": "0"
+          },
+          "9416": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (46')",
+            "manofthematch": "0",
+            "number": "7",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": 0,
+            "status": "lineup",
+            "sub": "0"
           }
-        ],
+        },
         "4536": [
           {
             "assists": "",
@@ -651505,6 +651742,8 @@
       "ping_status": "closed",
       "players": [
         0,
+        9416,
+        15371,
         0
       ],
       "results": {
@@ -651551,9 +651790,9 @@
         31
       ],
       "winner": 315,
-      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>KenGold FC vs TMA - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19205/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"KenGold FC vs TMA - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19205/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-14T17:01:04+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19205\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19205\\/\",\"name\":\"KenGold FC vs TMA - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-14T13:00:00+00:00\",\"dateModified\":\"2026-11-14T17:01:04+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19205\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19205\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19205\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"KenGold FC vs TMA\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>KenGold FC vs TMA - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19205/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"KenGold FC vs TMA - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19205/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-16T09:50:52+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19205\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19205\\/\",\"name\":\"KenGold FC vs TMA - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-14T13:00:00+00:00\",\"dateModified\":\"2026-11-16T09:50:52+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19205\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19205\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19205\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"KenGold FC vs TMA\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
       "yoast_head_json": {
-        "article_modified_time": "2026-11-14T17:01:04+00:00",
+        "article_modified_time": "2026-11-16T09:50:52+00:00",
         "canonical": "https://ligikuu.co.tz/event/19205/",
         "og_image": [
           {
@@ -651584,7 +651823,7 @@
               "breadcrumb": {
                 "@id": "https://ligikuu.co.tz/event/19205/#breadcrumb"
               },
-              "dateModified": "2026-11-14T17:01:04+00:00",
+              "dateModified": "2026-11-16T09:50:52+00:00",
               "datePublished": "2026-11-14T13:00:00+00:00",
               "inLanguage": "en-US",
               "isPartOf": {
@@ -651767,8 +652006,8 @@
       ],
       "minutes": "90",
       "mode": "team",
-      "modified": "2026-11-15T20:32:48",
-      "modified_gmt": "2026-11-15T17:32:48",
+      "modified": "2026-11-16T14:54:08",
+      "modified_gmt": "2026-11-16T11:54:08",
       "offense": [],
       "outcome": {
         "14180": "draw",
@@ -651784,31 +652023,61 @@
           "penaltygoal": "Penalty Goals",
           "position": "Position"
         },
-        "14180": [
-          {
+        "14180": {
+          "0": {
             "assists": "",
             "cleansheets": "",
             "goals": "",
             "manofthematch": "",
             "owngoals": "",
             "penaltygoal": ""
+          },
+          "19619": {
+            "assists": "",
+            "cleansheets": "1",
+            "goals": "",
+            "manofthematch": "0",
+            "number": "31",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "3"
+            ],
+            "status": "lineup",
+            "sub": "0"
           }
-        ],
-        "330": [
-          {
+        },
+        "330": {
+          "0": {
             "assists": "",
             "cleansheets": "",
             "goals": "",
             "manofthematch": "",
             "owngoals": "",
             "penaltygoal": ""
+          },
+          "5081": {
+            "assists": "",
+            "cleansheets": "1",
+            "goals": "",
+            "manofthematch": "0",
+            "number": "33",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "3"
+            ],
+            "status": "lineup",
+            "sub": "0"
           }
-        ]
+        }
       },
       "ping_status": "closed",
       "players": [
         0,
-        0
+        19619,
+        0,
+        5081
       ],
       "results": {
         "0": {
@@ -651854,9 +652123,9 @@
         125
       ],
       "winner": null,
-      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Bandari Tanzania vs Rhino Rangers - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19206/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Bandari Tanzania vs Rhino Rangers - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19206/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-15T17:32:48+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19206\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19206\\/\",\"name\":\"Bandari Tanzania vs Rhino Rangers - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-15T13:00:00+00:00\",\"dateModified\":\"2026-11-15T17:32:48+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19206\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19206\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19206\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Bandari Tanzania vs Rhino Rangers\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Bandari Tanzania vs Rhino Rangers - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19206/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Bandari Tanzania vs Rhino Rangers - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19206/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-16T11:54:08+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19206\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19206\\/\",\"name\":\"Bandari Tanzania vs Rhino Rangers - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-15T13:00:00+00:00\",\"dateModified\":\"2026-11-16T11:54:08+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19206\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19206\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19206\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Bandari Tanzania vs Rhino Rangers\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
       "yoast_head_json": {
-        "article_modified_time": "2026-11-15T17:32:48+00:00",
+        "article_modified_time": "2026-11-16T11:54:08+00:00",
         "canonical": "https://ligikuu.co.tz/event/19206/",
         "og_image": [
           {
@@ -651887,7 +652156,7 @@
               "breadcrumb": {
                 "@id": "https://ligikuu.co.tz/event/19206/#breadcrumb"
               },
-              "dateModified": "2026-11-15T17:32:48+00:00",
+              "dateModified": "2026-11-16T11:54:08+00:00",
               "datePublished": "2026-11-15T13:00:00+00:00",
               "inLanguage": "en-US",
               "isPartOf": {
@@ -652070,8 +652339,8 @@
       ],
       "minutes": "90",
       "mode": "team",
-      "modified": "2026-11-15T20:31:29",
-      "modified_gmt": "2026-11-15T17:31:29",
+      "modified": "2026-11-16T14:49:09",
+      "modified_gmt": "2026-11-16T11:49:09",
       "offense": [],
       "outcome": {
         "281": "loss",
@@ -652097,20 +652366,50 @@
             "penaltygoal": ""
           }
         ],
-        "290": [
-          {
+        "290": {
+          "0": {
             "assists": "",
             "cleansheets": "",
             "goals": "",
             "manofthematch": "",
             "owngoals": "",
             "penaltygoal": ""
+          },
+          "5400": {
+            "assists": "",
+            "cleansheets": "1",
+            "goals": "",
+            "manofthematch": "0",
+            "number": "50",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "3"
+            ],
+            "status": "lineup",
+            "sub": "0"
+          },
+          "9831": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (55')",
+            "manofthematch": "0",
+            "number": "27",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "6"
+            ],
+            "status": "lineup",
+            "sub": "0"
           }
-        ]
+        }
       },
       "ping_status": "closed",
       "players": [
         0,
+        9831,
+        5400,
         0
       ],
       "results": {
@@ -652157,9 +652456,9 @@
         31
       ],
       "winner": 290,
-      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Tanzania Prisons vs KMC FC - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19207/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Tanzania Prisons vs KMC FC - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19207/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-15T17:31:29+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19207\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19207\\/\",\"name\":\"Tanzania Prisons vs KMC FC - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-15T13:00:00+00:00\",\"dateModified\":\"2026-11-15T17:31:29+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19207\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19207\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19207\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Tanzania Prisons vs KMC FC\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Tanzania Prisons vs KMC FC - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19207/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Tanzania Prisons vs KMC FC - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19207/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-16T11:49:09+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19207\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19207\\/\",\"name\":\"Tanzania Prisons vs KMC FC - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-15T13:00:00+00:00\",\"dateModified\":\"2026-11-16T11:49:09+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19207\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19207\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19207\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Tanzania Prisons vs KMC FC\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
       "yoast_head_json": {
-        "article_modified_time": "2026-11-15T17:31:29+00:00",
+        "article_modified_time": "2026-11-16T11:49:09+00:00",
         "canonical": "https://ligikuu.co.tz/event/19207/",
         "og_image": [
           {
@@ -652190,7 +652489,7 @@
               "breadcrumb": {
                 "@id": "https://ligikuu.co.tz/event/19207/#breadcrumb"
               },
-              "dateModified": "2026-11-15T17:31:29+00:00",
+              "dateModified": "2026-11-16T11:49:09+00:00",
               "datePublished": "2026-11-15T13:00:00+00:00",
               "inLanguage": "en-US",
               "isPartOf": {
@@ -652373,8 +652672,8 @@
       ],
       "minutes": "90",
       "mode": "team",
-      "modified": "2026-11-15T20:30:27",
-      "modified_gmt": "2026-11-15T17:30:27",
+      "modified": "2026-11-16T14:44:55",
+      "modified_gmt": "2026-11-16T11:44:55",
       "offense": [],
       "outcome": {
         "266": "win",
@@ -652390,31 +652689,76 @@
           "penaltygoal": "Penalty Goals",
           "position": "Position"
         },
-        "266": [
-          {
+        "266": {
+          "0": {
             "assists": "",
             "cleansheets": "",
             "goals": "",
             "manofthematch": "",
             "owngoals": "",
             "penaltygoal": ""
+          },
+          "20078": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (20')",
+            "manofthematch": "0",
+            "number": "7",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "5"
+            ],
+            "status": "lineup",
+            "sub": "0"
+          },
+          "20274": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (90+5')",
+            "manofthematch": "0",
+            "number": "19",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "4"
+            ],
+            "status": "lineup",
+            "sub": "0"
           }
-        ],
-        "6048": [
-          {
+        },
+        "6048": {
+          "0": {
             "assists": "",
             "cleansheets": "",
             "goals": "",
             "manofthematch": "",
             "owngoals": "",
             "penaltygoal": ""
+          },
+          "9459": {
+            "assists": "",
+            "cleansheets": "0",
+            "goals": "1 (51')",
+            "manofthematch": "0",
+            "number": "17",
+            "owngoals": "",
+            "penaltygoal": "",
+            "position": [
+              "6"
+            ],
+            "status": "lineup",
+            "sub": "0"
           }
-        ]
+        }
       },
       "ping_status": "closed",
       "players": [
         0,
-        0
+        9459,
+        0,
+        20078,
+        20274
       ],
       "results": {
         "0": {
@@ -652460,9 +652804,9 @@
         442
       ],
       "winner": 266,
-      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Kigamboni United vs Bigman FC - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19208/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Kigamboni United vs Bigman FC - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19208/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-15T17:30:27+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19208\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19208\\/\",\"name\":\"Kigamboni United vs Bigman FC - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-15T13:00:00+00:00\",\"dateModified\":\"2026-11-15T17:30:27+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19208\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19208\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19208\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Kigamboni United vs Bigman FC\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+      "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Kigamboni United vs Bigman FC - LIGI KUU</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://ligikuu.co.tz/event/19208/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Kigamboni United vs Bigman FC - LIGI KUU\" />\n<meta property=\"og:url\" content=\"https://ligikuu.co.tz/event/19208/\" />\n<meta property=\"og:site_name\" content=\"LIGI KUU\" />\n<meta property=\"article:modified_time\" content=\"2026-11-16T11:44:55+00:00\" />\n<meta property=\"og:image\" content=\"https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png\" />\n\t<meta property=\"og:image:width\" content=\"972\" />\n\t<meta property=\"og:image:height\" content=\"827\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19208\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19208\\/\",\"name\":\"Kigamboni United vs Bigman FC - LIGI KUU\",\"isPartOf\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\"},\"datePublished\":\"2026-11-15T13:00:00+00:00\",\"dateModified\":\"2026-11-16T11:44:55+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19208\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/ligikuu.co.tz\\/event\\/19208\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/event\\/19208\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/ligikuu.co.tz\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Kigamboni United vs Bigman FC\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#website\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"name\":\"TPLB\",\"description\":\"Tanzania Premier League Board\",\"publisher\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/ligikuu.co.tz\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#organization\",\"name\":\"TPLB\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"contentUrl\":\"https:\\/\\/ligikuu.co.tz\\/wp-content\\/uploads\\/2022\\/05\\/TPLB.png\",\"width\":345,\"height\":375,\"caption\":\"TPLB\"},\"image\":{\"@id\":\"https:\\/\\/ligikuu.co.tz\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
       "yoast_head_json": {
-        "article_modified_time": "2026-11-15T17:30:27+00:00",
+        "article_modified_time": "2026-11-16T11:44:55+00:00",
         "canonical": "https://ligikuu.co.tz/event/19208/",
         "og_image": [
           {
@@ -652493,7 +652837,7 @@
               "breadcrumb": {
                 "@id": "https://ligikuu.co.tz/event/19208/#breadcrumb"
               },
-              "dateModified": "2026-11-15T17:30:27+00:00",
+              "dateModified": "2026-11-16T11:44:55+00:00",
               "datePublished": "2026-11-15T13:00:00+00:00",
               "inLanguage": "en-US",
               "isPartOf": {
@@ -697430,13 +697774,13 @@
       "link": "https://ligikuu.co.tz/event/19421/",
       "main_results": [],
       "minutes": "90",
-      "mode": "",
-      "modified": "2026-09-14T13:20:03",
-      "modified_gmt": "2026-09-14T10:20:03",
+      "mode": "team",
+      "modified": "2026-11-16T15:25:40",
+      "modified_gmt": "2026-11-16T12:25:40",
       "offense": [],
       "outcome": [],
-      "performance": [
-        {
+      "performance": {
+        "0": {
           "assists": "Assists",
           "cleansheets": "Cleansheet",
           "goals": "Goals",
@@ -697444,29 +697788,56 @@
           "owngoals": "Own Goals",
           "penaltygoal": "Penalty Goals",
           "position": "Position"
-        }
-      ],
+        },
+        "10892": [
+          {
+            "assists": "",
+            "cleansheets": "",
+            "goals": "",
+            "manofthematch": "",
+            "owngoals": "",
+            "penaltygoal": ""
+          }
+        ],
+        "19407": [
+          {
+            "assists": "",
+            "cleansheets": "",
+            "goals": "",
+            "manofthematch": "",
+            "owngoals": "",
+            "penaltygoal": ""
+          }
+        ]
+      },
       "ping_status": "closed",
-      "players": [],
+      "players": [
+        0,
+        0
+      ],
       "results": {
         "0": {
-          "firsthalf": "1st Half",
-          "goals": "Goals",
-          "outcome": "Outcome",
-          "secondhalf": "2nd Half"
+          "outcome": "Outcome"
         },
-        "10892": [],
-        "19407": []
+        "10892": {
+          "firsthalf": "",
+          "goals": "",
+          "secondhalf": ""
+        },
+        "6039": []
       },
       "seasons": [
         431
       ],
       "slug": "19421",
-      "staff": [],
+      "staff": [
+        0,
+        0
+      ],
       "status": "future",
       "teams": [
         10892,
-        19407
+        6039
       ],
       "template": "",
       "title": {
@@ -723438,6 +723809,6 @@
     }
   ],
   "resource": "events",
-  "scraped_at": "2026-11-16T06:18:31+00:00",
+  "scraped_at": "2026-11-16T21:57:09+00:00",
   "source": "ligikuu"
 }
