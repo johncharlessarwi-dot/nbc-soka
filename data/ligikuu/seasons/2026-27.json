@@ -10744,7 +10744,7 @@
     },
     {
       "away_score": null,
-      "away_team_id": 17858,
+      "away_team_id": 326,
       "date": "2026-11-27T16:00:00",
       "date_gmt": "2026-11-27T13:00:00",
       "day": "",
@@ -10762,7 +10762,7 @@
       "raw_main_results": [],
       "raw_teams": [
         330,
-        17858
+        326
       ],
       "seasons": [
         431
@@ -10904,13 +10904,13 @@
     },
     {
       "away_score": null,
-      "away_team_id": 17837,
+      "away_team_id": 340,
       "date": "2026-11-29T16:00:00",
       "date_gmt": "2026-11-29T13:00:00",
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 17840,
+      "home_team_id": 4536,
       "id": 19223,
       "is_placeholder": false,
       "leagues": [
@@ -10921,15 +10921,17 @@
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        17840,
-        17837
+        4536,
+        340
       ],
       "seasons": [
         431
       ],
       "slug": "19223",
       "status": "future",
-      "venues": [],
+      "venues": [
+        143
+      ],
       "winner_id": null
     },
     {
@@ -11060,7 +11062,7 @@
     },
     {
       "away_score": null,
-      "away_team_id": 17840,
+      "away_team_id": 4536,
       "date": "2026-12-05T16:00:00",
       "date_gmt": "2026-12-05T13:00:00",
       "day": "",
@@ -11078,7 +11080,7 @@
       "raw_main_results": [],
       "raw_teams": [
         312,
-        17840
+        4536
       ],
       "seasons": [
         431
@@ -11156,7 +11158,7 @@
     },
     {
       "away_score": null,
-      "away_team_id": 17858,
+      "away_team_id": 326,
       "date": "2026-12-06T16:00:00",
       "date_gmt": "2026-12-06T13:00:00",
       "day": "",
@@ -11174,7 +11176,7 @@
       "raw_main_results": [],
       "raw_teams": [
         10894,
-        17858
+        326
       ],
       "seasons": [
         431
@@ -11252,7 +11254,7 @@
     },
     {
       "away_score": null,
-      "away_team_id": 17837,
+      "away_team_id": 340,
       "date": "2026-12-11T16:00:00",
       "date_gmt": "2026-12-11T13:00:00",
       "day": "",
@@ -11270,7 +11272,7 @@
       "raw_main_results": [],
       "raw_teams": [
         429,
-        17837
+        340
       ],
       "seasons": [
         431
@@ -16026,7 +16028,7 @@
     },
     {
       "away_score": null,
-      "away_team_id": 19409,
+      "away_team_id": 6043,
       "date": "2026-11-28T16:00:00",
       "date_gmt": "2026-11-28T13:00:00",
       "day": "",
@@ -16044,7 +16046,7 @@
       "raw_main_results": [],
       "raw_teams": [
         337,
-        19409
+        6043
       ],
       "seasons": [
         431
@@ -16058,7 +16060,7 @@
     },
     {
       "away_score": null,
-      "away_team_id": 19406,
+      "away_team_id": 10893,
       "date": "2026-11-29T16:00:00",
       "date_gmt": "2026-11-29T13:00:00",
       "day": "",
@@ -16076,7 +16078,7 @@
       "raw_main_results": [],
       "raw_teams": [
         6041,
-        19406
+        10893
       ],
       "seasons": [
         431
@@ -17549,13 +17551,13 @@
       "winner_id": 19476
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 14178,
       "date": "2026-11-06T16:00:00",
       "date_gmt": "2026-11-06T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 2,
       "home_team_id": 19469,
       "id": 19491,
       "is_placeholder": false,
@@ -17564,8 +17566,14 @@
       ],
       "minutes": "90",
       "name": "Kigoma FC vs NKIM",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "14178": "loss",
+        "19469": "win"
+      },
+      "raw_main_results": [
+        "2",
+        "0"
+      ],
       "raw_teams": [
         19469,
         14178
@@ -17578,7 +17586,7 @@
       "venues": [
         97
       ],
-      "winner_id": null
+      "winner_id": 19469
     },
     {
       "away_score": 2,
@@ -19167,7 +19175,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-18T07:18:04+00:00",
+  "scraped_at": "2026-11-18T20:26:14+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",
