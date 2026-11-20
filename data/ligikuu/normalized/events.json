@@ -20,10 +20,10 @@
       417,
       431
     ],
-    "delta_count": 0,
+    "delta_count": 6,
     "full": false,
     "incremental": true,
-    "modified_after": "2026-11-19T19:29:24+00:00"
+    "modified_after": "2026-11-20T06:04:38+00:00"
   },
   "items": [
     {
@@ -66707,13 +66707,13 @@
       "winner_id": 291
     },
     {
-      "away_score": null,
+      "away_score": 2,
       "away_team_id": 292,
       "date": "2026-11-20T16:00:00",
       "date_gmt": "2026-11-20T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 288,
       "id": 17383,
       "is_placeholder": false,
@@ -66722,8 +66722,14 @@
       ],
       "minutes": "90",
       "name": "Polisi Tanzania vs Young Africans",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "288": "loss",
+        "292": "win"
+      },
+      "raw_main_results": [
+        "0",
+        "2"
+      ],
       "raw_teams": [
         288,
         292
@@ -66732,20 +66738,20 @@
         431
       ],
       "slug": "17383",
-      "status": "future",
+      "status": "publish",
       "venues": [
         93
       ],
-      "winner_id": null
+      "winner_id": 292
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 285,
       "date": "2026-11-20T18:30:00",
       "date_gmt": "2026-11-20T15:30:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 286,
       "id": 17384,
       "is_placeholder": false,
@@ -66754,8 +66760,14 @@
       ],
       "minutes": "90",
       "name": "Namungo FC vs Mbeya City",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "285": "draw",
+        "286": "draw"
+      },
+      "raw_main_results": [
+        "0",
+        "0"
+      ],
       "raw_teams": [
         286,
         285
@@ -66764,7 +66776,7 @@
         431
       ],
       "slug": "17384",
-      "status": "future",
+      "status": "publish",
       "venues": [
         27
       ],
@@ -73939,13 +73951,13 @@
       "winner_id": 266
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 14180,
       "date": "2026-11-20T16:00:00",
       "date_gmt": "2026-11-20T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 266,
       "id": 19209,
       "is_placeholder": false,
@@ -73954,8 +73966,14 @@
       ],
       "minutes": "90",
       "name": "Bigman FC vs Bandari Tanzania",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "14180": "loss",
+        "266": "win"
+      },
+      "raw_main_results": [
+        "1",
+        "0"
+      ],
       "raw_teams": [
         266,
         14180
@@ -73964,20 +73982,20 @@
         431
       ],
       "slug": "19209",
-      "status": "future",
+      "status": "publish",
       "venues": [
         420
       ],
-      "winner_id": null
+      "winner_id": 266
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 330,
       "date": "2026-11-20T16:00:00",
       "date_gmt": "2026-11-20T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 2,
       "home_team_id": 6048,
       "id": 19210,
       "is_placeholder": false,
@@ -73986,8 +74004,14 @@
       ],
       "minutes": "90",
       "name": "Kigamboni United vs Rhino Rangers",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "330": "loss",
+        "6048": "win"
+      },
+      "raw_main_results": [
+        "2",
+        "1"
+      ],
       "raw_teams": [
         6048,
         330
@@ -73996,20 +74020,20 @@
         431
       ],
       "slug": "19210",
-      "status": "future",
+      "status": "publish",
       "venues": [
         442
       ],
-      "winner_id": null
+      "winner_id": 6048
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 326,
       "date": "2026-11-20T16:00:00",
       "date_gmt": "2026-11-20T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 349,
       "id": 19211,
       "is_placeholder": false,
@@ -74018,8 +74042,14 @@
       ],
       "minutes": "90",
       "name": "Stand United vs Transit Camp FC",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "326": "draw",
+        "349": "draw"
+      },
+      "raw_main_results": [
+        "0",
+        "0"
+      ],
       "raw_teams": [
         349,
         326
@@ -74028,7 +74058,7 @@
         431
       ],
       "slug": "19211",
-      "status": "future",
+      "status": "publish",
       "venues": [
         275
       ],
@@ -74170,7 +74200,7 @@
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 17837,
+      "home_team_id": 340,
       "id": 19216,
       "is_placeholder": false,
       "leagues": [
@@ -74181,7 +74211,7 @@
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        17837,
+        340,
         14179
       ],
       "seasons": [
@@ -74189,7 +74219,9 @@
       ],
       "slug": "19216",
       "status": "future",
-      "venues": [],
+      "venues": [
+        143
+      ],
       "winner_id": null
     },
     {
@@ -82658,6 +82690,6 @@
     }
   ],
   "resource": "events",
-  "scraped_at": "2026-11-20T07:04:43+00:00",
+  "scraped_at": "2026-11-20T20:06:03+00:00",
   "source": "ligikuu"
 }

@@ -666,7 +666,7 @@
           }
         ]
       },
-      "count": 49,
+      "count": 50,
       "description": "",
       "id": 280,
       "link": "https://ligikuu.co.tz/venue/azam-complex-dsm/",
@@ -1572,7 +1572,7 @@
           }
         ]
       },
-      "count": 40,
+      "count": 41,
       "description": "",
       "id": 275,
       "link": "https://ligikuu.co.tz/venue/ccm-kambarage-shinyanga/",
@@ -2629,7 +2629,7 @@
           }
         ]
       },
-      "count": 21,
+      "count": 22,
       "description": "",
       "id": 420,
       "link": "https://ligikuu.co.tz/venue/ilulu-stadium/",
@@ -4441,7 +4441,7 @@
           }
         ]
       },
-      "count": 44,
+      "count": 45,
       "description": "",
       "id": 27,
       "link": "https://ligikuu.co.tz/venue/majaliwa-stadium-lindi/",
@@ -8065,7 +8065,7 @@
           }
         ]
       },
-      "count": 8,
+      "count": 9,
       "description": "",
       "id": 442,
       "link": "https://ligikuu.co.tz/venue/uhuru-stadium/",
@@ -8216,7 +8216,7 @@
           }
         ]
       },
-      "count": 64,
+      "count": 65,
       "description": "",
       "id": 93,
       "link": "https://ligikuu.co.tz/venue/ushirika-stadium-kilimanjaro/",
@@ -8333,6 +8333,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-20T07:04:40+00:00",
+  "scraped_at": "2026-11-20T20:06:00+00:00",
   "source": "ligikuu"
 }

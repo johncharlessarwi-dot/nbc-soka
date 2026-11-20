@@ -59,7 +59,7 @@
       "slug": "amani-stadium-njombe"
     },
     {
-      "count": 49,
+      "count": 50,
       "description": "",
       "id": 280,
       "name": "Azam Complex, DSM",
@@ -107,7 +107,7 @@
       "slug": "ccm-gairo-stadium"
     },
     {
-      "count": 40,
+      "count": 41,
       "description": "",
       "id": 275,
       "name": "CCM Kambarage - Shinyanga",
@@ -163,7 +163,7 @@
       "slug": "highland-estates-mbeya"
     },
     {
-      "count": 21,
+      "count": 22,
       "description": "",
       "id": 420,
       "name": "Ilulu Stadium",
@@ -259,7 +259,7 @@
       "slug": "magogo-stadium-geita"
     },
     {
-      "count": 44,
+      "count": 45,
       "description": "",
       "id": 27,
       "name": "Majaliwa Stadium, Lindi",
@@ -451,7 +451,7 @@
       "slug": "tff-center-miyanjani-tanga"
     },
     {
-      "count": 8,
+      "count": 9,
       "description": "",
       "id": 442,
       "name": "Uhuru Stadium",
@@ -459,7 +459,7 @@
       "slug": "uhuru-stadium"
     },
     {
-      "count": 64,
+      "count": 65,
       "description": "",
       "id": 93,
       "name": "Ushirika Stadium, Kilimanjaro",
@@ -468,6 +468,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-20T07:04:40+00:00",
+  "scraped_at": "2026-11-20T20:06:00+00:00",
   "source": "ligikuu"
 }
