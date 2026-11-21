@@ -3339,13 +3339,13 @@
       "winner_id": 2189
     },
     {
-      "away_score": null,
+      "away_score": 2,
       "away_team_id": 278,
       "date": "2026-11-21T16:00:00",
       "date_gmt": "2026-11-21T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 3,
       "home_team_id": 321,
       "id": 17386,
       "is_placeholder": false,
@@ -3354,8 +3354,14 @@
       ],
       "minutes": "90",
       "name": "Pamba Jiji vs Coastal union",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "278": "loss",
+        "321": "win"
+      },
+      "raw_main_results": [
+        "3",
+        "2"
+      ],
       "raw_teams": [
         321,
         278
@@ -3364,20 +3370,20 @@
         431
       ],
       "slug": "17386",
-      "status": "future",
+      "status": "publish",
       "venues": [
         106
       ],
-      "winner_id": null
+      "winner_id": 321
     },
     {
-      "away_score": null,
+      "away_score": 2,
       "away_team_id": 291,
       "date": "2026-11-21T18:30:00",
       "date_gmt": "2026-11-21T15:30:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 268,
       "id": 17387,
       "is_placeholder": false,
@@ -3386,8 +3392,14 @@
       ],
       "minutes": "90",
       "name": "JKT Tanzania vs Simba SC",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "268": "loss",
+        "291": "win"
+      },
+      "raw_main_results": [
+        "1",
+        "2"
+      ],
       "raw_teams": [
         268,
         291
@@ -3396,11 +3408,11 @@
         431
       ],
       "slug": "17387",
-      "status": "future",
+      "status": "publish",
       "venues": [
         279
       ],
-      "winner_id": null
+      "winner_id": 291
     },
     {
       "away_score": null,
@@ -10589,13 +10601,13 @@
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 10894,
       "date": "2026-11-21T16:00:00",
       "date_gmt": "2026-11-21T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 2,
       "home_team_id": 283,
       "id": 19212,
       "is_placeholder": false,
@@ -10604,8 +10616,14 @@
       ],
       "minutes": "90",
       "name": "Mtibwa Sugar vs Gunners FC",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "10894": "loss",
+        "283": "win"
+      },
+      "raw_main_results": [
+        "2",
+        "1"
+      ],
       "raw_teams": [
         283,
         10894
@@ -10614,20 +10632,20 @@
         431
       ],
       "slug": "19212",
-      "status": "future",
+      "status": "publish",
       "venues": [
         29
       ],
-      "winner_id": null
+      "winner_id": 283
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 281,
       "date": "2026-11-21T16:00:00",
       "date_gmt": "2026-11-21T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 4536,
       "id": 19213,
       "is_placeholder": false,
@@ -10636,8 +10654,14 @@
       ],
       "minutes": "90",
       "name": "TMA vs KMC FC",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "281": "draw",
+        "4536": "draw"
+      },
+      "raw_main_results": [
+        "1",
+        "1"
+      ],
       "raw_teams": [
         4536,
         281
@@ -10646,20 +10670,20 @@
         431
       ],
       "slug": "19213",
-      "status": "future",
+      "status": "publish",
       "venues": [
         143
       ],
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 2,
       "away_team_id": 290,
       "date": "2026-11-21T16:00:00",
       "date_gmt": "2026-11-21T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 315,
       "id": 19214,
       "is_placeholder": false,
@@ -10668,8 +10692,14 @@
       ],
       "minutes": "90",
       "name": "KenGold FC vs Tanzania Prisons",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "290": "win",
+        "315": "loss"
+      },
+      "raw_main_results": [
+        "1",
+        "2"
+      ],
       "raw_teams": [
         315,
         290
@@ -10678,11 +10708,11 @@
         431
       ],
       "slug": "19214",
-      "status": "future",
+      "status": "publish",
       "venues": [
         31
       ],
-      "winner_id": null
+      "winner_id": 290
     },
     {
       "away_score": null,
@@ -19213,7 +19243,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-21T06:58:18+00:00",
+  "scraped_at": "2026-11-21T19:08:44+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",

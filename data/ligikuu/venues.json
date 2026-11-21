@@ -1723,7 +1723,7 @@
           }
         ]
       },
-      "count": 52,
+      "count": 53,
       "description": "",
       "id": 106,
       "link": "https://ligikuu.co.tz/venue/ccm-kirumba-mwanza/",
@@ -2780,7 +2780,7 @@
           }
         ]
       },
-      "count": 85,
+      "count": 87,
       "description": "",
       "id": 29,
       "link": "https://ligikuu.co.tz/venue/jamhuri-stadium-dodoma/",
@@ -5045,7 +5045,7 @@
           }
         ]
       },
-      "count": 56,
+      "count": 57,
       "description": "",
       "id": 279,
       "link": "https://ligikuu.co.tz/venue/mej-gen-isamuhyo-dsm/",
@@ -7008,7 +7008,7 @@
           }
         ]
       },
-      "count": 131,
+      "count": 132,
       "description": "",
       "id": 143,
       "link": "https://ligikuu.co.tz/venue/sheikh-amri-abeid/",
@@ -7310,7 +7310,7 @@
           }
         ]
       },
-      "count": 107,
+      "count": 108,
       "description": "",
       "id": 31,
       "link": "https://ligikuu.co.tz/venue/sokoine-stadium-mbeya/",
@@ -8333,6 +8333,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-21T06:58:20+00:00",
+  "scraped_at": "2026-11-21T19:08:47+00:00",
   "source": "ligikuu"
 }

@@ -115,7 +115,7 @@
       "slug": "ccm-kambarage-shinyanga"
     },
     {
-      "count": 52,
+      "count": 53,
       "description": "",
       "id": 106,
       "name": "CCM Kirumba, Mwanza",
@@ -171,7 +171,7 @@
       "slug": "ilulu-stadium"
     },
     {
-      "count": 85,
+      "count": 87,
       "description": "",
       "id": 29,
       "name": "Jamhuri Stadium, Dodoma",
@@ -291,7 +291,7 @@
       "slug": "mbeya-city"
     },
     {
-      "count": 56,
+      "count": 57,
       "description": "",
       "id": 279,
       "name": "Mej. Gen. Isamuhyo, DSM",
@@ -395,7 +395,7 @@
       "slug": "samora-stadium-iringa"
     },
     {
-      "count": 131,
+      "count": 132,
       "description": "",
       "id": 143,
       "name": "Sheikh Amri Abeid, Arusha",
@@ -411,7 +411,7 @@
       "slug": "singida-bs"
     },
     {
-      "count": 107,
+      "count": 108,
       "description": "",
       "id": 31,
       "name": "Sokoine Stadium, Mbeya",
@@ -468,6 +468,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-21T06:58:20+00:00",
+  "scraped_at": "2026-11-21T19:08:47+00:00",
   "source": "ligikuu"
 }
