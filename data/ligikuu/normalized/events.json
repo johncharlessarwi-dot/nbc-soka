@@ -20,10 +20,10 @@
       417,
       431
     ],
-    "delta_count": 6,
+    "delta_count": 1,
     "full": false,
     "incremental": true,
-    "modified_after": "2026-11-20T06:04:38+00:00"
+    "modified_after": "2026-11-20T19:05:58+00:00"
   },
   "items": [
     {
@@ -66783,13 +66783,13 @@
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 4,
       "away_team_id": 2189,
       "date": "2026-11-20T21:00:00",
       "date_gmt": "2026-11-20T18:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 2,
       "home_team_id": 294,
       "id": 17385,
       "is_placeholder": false,
@@ -66798,8 +66798,14 @@
       ],
       "minutes": "90",
       "name": "Azam FC vs Singida BS",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "2189": "win",
+        "294": "loss"
+      },
+      "raw_main_results": [
+        "2",
+        "4"
+      ],
       "raw_teams": [
         294,
         2189
@@ -66808,11 +66814,11 @@
         431
       ],
       "slug": "17385",
-      "status": "future",
+      "status": "publish",
       "venues": [
         280
       ],
-      "winner_id": null
+      "winner_id": 2189
     },
     {
       "away_score": null,
@@ -82690,6 +82696,6 @@
     }
   ],
   "resource": "events",
-  "scraped_at": "2026-11-20T20:06:03+00:00",
+  "scraped_at": "2026-11-21T06:58:23+00:00",
   "source": "ligikuu"
 }
