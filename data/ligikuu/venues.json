@@ -1270,7 +1270,7 @@
           }
         ]
       },
-      "count": 5,
+      "count": 6,
       "description": "",
       "id": 434,
       "link": "https://ligikuu.co.tz/venue/bukombe-geita/",
@@ -3384,7 +3384,7 @@
           }
         ]
       },
-      "count": 34,
+      "count": 35,
       "description": "",
       "id": 95,
       "link": "https://ligikuu.co.tz/venue/kaitaba-stadium-bukoba/",
@@ -5649,7 +5649,7 @@
           }
         ]
       },
-      "count": 53,
+      "count": 54,
       "description": "",
       "id": 125,
       "link": "https://ligikuu.co.tz/venue/nangwanda-sijaona-stadium/",
@@ -7008,7 +7008,7 @@
           }
         ]
       },
-      "count": 132,
+      "count": 133,
       "description": "",
       "id": 143,
       "link": "https://ligikuu.co.tz/venue/sheikh-amri-abeid/",
@@ -8333,6 +8333,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-22T06:38:11+00:00",
+  "scraped_at": "2026-11-22T19:30:37+00:00",
   "source": "ligikuu"
 }

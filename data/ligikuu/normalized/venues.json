@@ -91,7 +91,7 @@
       "slug": "black-rhino-stadium"
     },
     {
-      "count": 5,
+      "count": 6,
       "description": "",
       "id": 434,
       "name": "Bukombe, Geita",
@@ -203,7 +203,7 @@
       "slug": "kagera-sugar"
     },
     {
-      "count": 34,
+      "count": 35,
       "description": "",
       "id": 95,
       "name": "Kaitaba Stadium, Bukoba",
@@ -323,7 +323,7 @@
       "slug": "namungo-fc"
     },
     {
-      "count": 53,
+      "count": 54,
       "description": "",
       "id": 125,
       "name": "Nangwanda Sijaona, Mtwara",
@@ -395,7 +395,7 @@
       "slug": "samora-stadium-iringa"
     },
     {
-      "count": 132,
+      "count": 133,
       "description": "",
       "id": 143,
       "name": "Sheikh Amri Abeid, Arusha",
@@ -468,6 +468,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-22T06:38:11+00:00",
+  "scraped_at": "2026-11-22T19:30:37+00:00",
   "source": "ligikuu"
 }

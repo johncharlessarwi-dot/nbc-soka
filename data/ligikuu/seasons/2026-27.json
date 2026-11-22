@@ -3453,13 +3453,13 @@
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 325,
       "date": "2026-11-22T18:00:00",
       "date_gmt": "2026-11-22T15:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 269,
       "id": 17389,
       "is_placeholder": false,
@@ -3468,8 +3468,14 @@
       ],
       "minutes": "90",
       "name": "Kagera Sugar vs TRA United",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "269": "draw",
+        "325": "draw"
+      },
+      "raw_main_results": [
+        "1",
+        "1"
+      ],
       "raw_teams": [
         269,
         325
@@ -3478,7 +3484,7 @@
         431
       ],
       "slug": "17389",
-      "status": "future",
+      "status": "publish",
       "venues": [
         95
       ],
@@ -19249,7 +19255,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-22T06:38:09+00:00",
+  "scraped_at": "2026-11-22T19:30:35+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",
