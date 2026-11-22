@@ -20,10 +20,10 @@
       417,
       431
     ],
-    "delta_count": 5,
+    "delta_count": 3,
     "full": false,
     "incremental": true,
-    "modified_after": "2026-11-21T05:58:18+00:00"
+    "modified_after": "2026-11-21T18:08:44+00:00"
   },
   "items": [
     {
@@ -66897,13 +66897,13 @@
       "winner_id": 291
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 2582,
       "date": "2026-11-21T21:00:00",
       "date_gmt": "2026-11-21T18:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 267,
       "id": 17388,
       "is_placeholder": false,
@@ -66912,8 +66912,14 @@
       ],
       "minutes": "90",
       "name": "Dodoma jiji vs Fountain Gate",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "2582": "draw",
+        "267": "draw"
+      },
+      "raw_main_results": [
+        "0",
+        "0"
+      ],
       "raw_teams": [
         267,
         2582
@@ -66922,7 +66928,7 @@
         431
       ],
       "slug": "17388",
-      "status": "future",
+      "status": "publish",
       "venues": [
         29
       ],
@@ -82726,6 +82732,6 @@
     }
   ],
   "resource": "events",
-  "scraped_at": "2026-11-21T19:08:49+00:00",
+  "scraped_at": "2026-11-22T06:38:13+00:00",
   "source": "ligikuu"
 }
