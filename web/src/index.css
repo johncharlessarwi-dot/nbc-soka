@@ -193,6 +193,7 @@ select {
 }
 
 .tab {
+  min-height: 44px;
   border: 1px solid transparent;
   background: transparent;
   padding: 0.45rem 0.85rem;
