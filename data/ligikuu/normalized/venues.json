@@ -179,7 +179,7 @@
       "slug": "jamhuri-stadium-dodoma"
     },
     {
-      "count": 69,
+      "count": 71,
       "description": "",
       "id": 30,
       "name": "Jamhuri Stadium, Morogoro",
@@ -243,7 +243,7 @@
       "slug": "liti-stadiumsingida"
     },
     {
-      "count": 141,
+      "count": 143,
       "description": "",
       "id": 38,
       "name": "Mabatini Stadium, Pwani",
@@ -299,7 +299,7 @@
       "slug": "mej-gen-isamuhyo-dsm"
     },
     {
-      "count": 82,
+      "count": 84,
       "description": "",
       "id": 25,
       "name": "Mkwakwani Stadium, Tanga",
@@ -459,7 +459,7 @@
       "slug": "uhuru-stadium"
     },
     {
-      "count": 65,
+      "count": 66,
       "description": "",
       "id": 93,
       "name": "Ushirika Stadium, Kilimanjaro",
@@ -468,6 +468,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-23T23:49:02+00:00",
+  "scraped_at": "2026-11-24T09:47:19+00:00",
   "source": "ligikuu"
 }

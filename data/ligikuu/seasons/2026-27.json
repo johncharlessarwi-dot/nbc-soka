@@ -10733,13 +10733,13 @@
       "winner_id": 290
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 429,
       "date": "2026-11-22T16:00:00",
       "date_gmt": "2026-11-22T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 3,
       "home_team_id": 312,
       "id": 19215,
       "is_placeholder": false,
@@ -10747,9 +10747,15 @@
         445
       ],
       "minutes": "90",
-      "name": "Mbeya Kwanza vs Songea United",
-      "outcome": {},
-      "raw_main_results": [],
+      "name": "Tabora united vs Songea United",
+      "outcome": {
+        "312": "win",
+        "429": "loss"
+      },
+      "raw_main_results": [
+        "3",
+        "1"
+      ],
       "raw_teams": [
         312,
         429
@@ -10758,20 +10764,20 @@
         431
       ],
       "slug": "19215",
-      "status": "future",
+      "status": "publish",
       "venues": [
         125
       ],
-      "winner_id": null
+      "winner_id": 312
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 14179,
       "date": "2026-11-22T16:00:00",
       "date_gmt": "2026-11-22T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 340,
       "id": 19216,
       "is_placeholder": false,
@@ -10780,8 +10786,14 @@
       ],
       "minutes": "90",
       "name": "Mbuni vs IAA SC",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "14179": "draw",
+        "340": "draw"
+      },
+      "raw_main_results": [
+        "1",
+        "1"
+      ],
       "raw_teams": [
         340,
         14179
@@ -10790,7 +10802,7 @@
         431
       ],
       "slug": "19216",
-      "status": "future",
+      "status": "publish",
       "venues": [
         143
       ],
@@ -16081,13 +16093,13 @@
       "winner_id": 6043
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 6039,
-      "date": "2026-11-27T16:00:00",
-      "date_gmt": "2026-11-27T13:00:00",
+      "date": "2026-11-20T16:00:00",
+      "date_gmt": "2026-11-20T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 10892,
       "id": 19421,
       "is_placeholder": false,
@@ -16096,8 +16108,14 @@
       ],
       "minutes": "90",
       "name": "Moro Kids vs Barberian",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "10892": "draw",
+        "6039": "draw"
+      },
+      "raw_main_results": [
+        "1",
+        "1"
+      ],
       "raw_teams": [
         10892,
         6039
@@ -16106,20 +16124,20 @@
         431
       ],
       "slug": "19421",
-      "status": "future",
+      "status": "publish",
       "venues": [
         30
       ],
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 6043,
-      "date": "2026-11-28T16:00:00",
-      "date_gmt": "2026-11-28T13:00:00",
+      "date": "2026-11-23T16:00:00",
+      "date_gmt": "2026-11-23T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 337,
       "id": 19422,
       "is_placeholder": false,
@@ -16128,8 +16146,14 @@
       ],
       "minutes": "90",
       "name": "Pan African vs Nyumbu",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "337": "loss",
+        "6043": "win"
+      },
+      "raw_main_results": [
+        "0",
+        "1"
+      ],
       "raw_teams": [
         337,
         6043
@@ -16138,20 +16162,20 @@
         431
       ],
       "slug": "19422",
-      "status": "future",
+      "status": "publish",
       "venues": [
         38
       ],
-      "winner_id": null
+      "winner_id": 6043
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 10893,
-      "date": "2026-11-29T16:00:00",
-      "date_gmt": "2026-11-29T13:00:00",
+      "date": "2026-11-22T16:00:00",
+      "date_gmt": "2026-11-22T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 2,
       "home_team_id": 6041,
       "id": 19423,
       "is_placeholder": false,
@@ -16160,8 +16184,14 @@
       ],
       "minutes": "90",
       "name": "Magnet FC vs Hausang",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "10893": "loss",
+        "6041": "win"
+      },
+      "raw_main_results": [
+        "2",
+        "1"
+      ],
       "raw_teams": [
         6041,
         10893
@@ -16170,21 +16200,21 @@
         431
       ],
       "slug": "19423",
-      "status": "future",
+      "status": "publish",
       "venues": [
         38
       ],
-      "winner_id": null
+      "winner_id": 6041
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 354,
-      "date": "2026-11-29T16:00:00",
-      "date_gmt": "2026-11-29T13:00:00",
+      "date": "2026-11-22T16:00:00",
+      "date_gmt": "2026-11-22T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
-      "home_team_id": 19411,
+      "home_score": 1,
+      "home_team_id": 341,
       "id": 19424,
       "is_placeholder": false,
       "leagues": [
@@ -16192,18 +16222,26 @@
       ],
       "minutes": "90",
       "name": "Cosmopolitan vs Dar City",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "341": "draw",
+        "354": "draw"
+      },
+      "raw_main_results": [
+        "1",
+        "1"
+      ],
       "raw_teams": [
-        19411,
+        341,
         354
       ],
       "seasons": [
         431
       ],
       "slug": "19424",
-      "status": "future",
-      "venues": [],
+      "status": "publish",
+      "venues": [
+        30
+      ],
       "winner_id": null
     },
     {
@@ -16278,7 +16316,7 @@
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 19409,
+      "home_team_id": 6043,
       "id": 19427,
       "is_placeholder": false,
       "leagues": [
@@ -16289,7 +16327,7 @@
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        19409,
+        6043,
         354
       ],
       "seasons": [
@@ -16297,18 +16335,20 @@
       ],
       "slug": "19427",
       "status": "future",
-      "venues": [],
+      "venues": [
+        38
+      ],
       "winner_id": null
     },
     {
       "away_score": null,
-      "away_team_id": 19407,
+      "away_team_id": 6039,
       "date": "2026-12-06T16:00:00",
       "date_gmt": "2026-12-06T13:00:00",
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 19411,
+      "home_team_id": 341,
       "id": 19428,
       "is_placeholder": false,
       "leagues": [
@@ -16319,15 +16359,17 @@
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        19411,
-        19407
+        341,
+        6039
       ],
       "seasons": [
         431
       ],
       "slug": "19428",
       "status": "future",
-      "venues": [],
+      "venues": [
+        30
+      ],
       "winner_id": null
     },
     {
@@ -16338,7 +16380,7 @@
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 19411,
+      "home_team_id": 341,
       "id": 19429,
       "is_placeholder": false,
       "leagues": [
@@ -16349,7 +16391,7 @@
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        19411,
+        341,
         6041
       ],
       "seasons": [
@@ -16357,7 +16399,9 @@
       ],
       "slug": "19429",
       "status": "future",
-      "venues": [],
+      "venues": [
+        30
+      ],
       "winner_id": null
     },
     {
@@ -17899,13 +17943,13 @@
       "winner_id": 19469
     },
     {
-      "away_score": null,
+      "away_score": 2,
       "away_team_id": 19476,
-      "date": "2026-11-27T16:00:00",
-      "date_gmt": "2026-11-27T13:00:00",
+      "date": "2026-11-21T16:00:00",
+      "date_gmt": "2026-11-21T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 1,
       "home_team_id": 311,
       "id": 19498,
       "is_placeholder": false,
@@ -17914,8 +17958,14 @@
       ],
       "minutes": "90",
       "name": "African Sports vs Madini United",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "19476": "win",
+        "311": "loss"
+      },
+      "raw_main_results": [
+        "1",
+        "2"
+      ],
       "raw_teams": [
         311,
         19476
@@ -17924,11 +17974,11 @@
         431
       ],
       "slug": "19498",
-      "status": "future",
+      "status": "publish",
       "venues": [
         25
       ],
-      "winner_id": null
+      "winner_id": 19476
     },
     {
       "away_score": null,
@@ -17938,7 +17988,7 @@
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 19483,
+      "home_team_id": 333,
       "id": 19499,
       "is_placeholder": false,
       "leagues": [
@@ -17949,7 +17999,7 @@
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        19483,
+        333,
         19469
       ],
       "seasons": [
@@ -17957,18 +18007,20 @@
       ],
       "slug": "19499",
       "status": "future",
-      "venues": [],
+      "venues": [
+        101
+      ],
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 2,
       "away_team_id": 1665,
-      "date": "2026-11-28T16:00:00",
-      "date_gmt": "2026-11-28T13:00:00",
+      "date": "2026-11-22T16:00:00",
+      "date_gmt": "2026-11-22T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
-      "home_team_id": 19487,
+      "home_score": 3,
+      "home_team_id": 14178,
       "id": 19500,
       "is_placeholder": false,
       "leagues": [
@@ -17976,29 +18028,37 @@
       ],
       "minutes": "90",
       "name": "NKIM vs Copco FC",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "14178": "win",
+        "1665": "loss"
+      },
+      "raw_main_results": [
+        "3",
+        "2"
+      ],
       "raw_teams": [
-        19487,
+        14178,
         1665
       ],
       "seasons": [
         431
       ],
       "slug": "19500",
-      "status": "future",
-      "venues": [],
-      "winner_id": null
+      "status": "publish",
+      "venues": [
+        25
+      ],
+      "winner_id": 14178
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 19485,
-      "date": "2026-11-29T16:00:00",
-      "date_gmt": "2026-11-29T13:00:00",
+      "date": "2026-11-22T16:00:00",
+      "date_gmt": "2026-11-22T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
-      "home_team_id": 19489,
+      "home_score": 3,
+      "home_team_id": 6046,
       "id": 19501,
       "is_placeholder": false,
       "leagues": [
@@ -18006,23 +18066,31 @@
       ],
       "minutes": "90",
       "name": "Endument vs Mt. Hanang",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "19485": "loss",
+        "6046": "win"
+      },
+      "raw_main_results": [
+        "3",
+        "0"
+      ],
       "raw_teams": [
-        19489,
+        6046,
         19485
       ],
       "seasons": [
         431
       ],
       "slug": "19501",
-      "status": "future",
-      "venues": [],
-      "winner_id": null
+      "status": "publish",
+      "venues": [
+        93
+      ],
+      "winner_id": 6046
     },
     {
       "away_score": null,
-      "away_team_id": 19483,
+      "away_team_id": 333,
       "date": "2026-12-04T16:00:00",
       "date_gmt": "2026-12-04T13:00:00",
       "day": "",
@@ -18040,7 +18108,7 @@
       "raw_main_results": [],
       "raw_teams": [
         19485,
-        19483
+        333
       ],
       "seasons": [
         431
@@ -18090,7 +18158,7 @@
       "day": "",
       "format": "league",
       "home_score": null,
-      "home_team_id": 19487,
+      "home_team_id": 14178,
       "id": 19504,
       "is_placeholder": false,
       "leagues": [
@@ -18101,7 +18169,7 @@
       "outcome": {},
       "raw_main_results": [],
       "raw_teams": [
-        19487,
+        14178,
         19476
       ],
       "seasons": [
@@ -18109,7 +18177,9 @@
       ],
       "slug": "19504",
       "status": "future",
-      "venues": [],
+      "venues": [
+        25
+      ],
       "winner_id": null
     },
     {
@@ -19261,7 +19331,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-23T23:49:00+00:00",
+  "scraped_at": "2026-11-24T09:47:16+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",
