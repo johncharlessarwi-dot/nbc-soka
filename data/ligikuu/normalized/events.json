@@ -20,10 +20,10 @@
       417,
       431
     ],
-    "delta_count": 25,
+    "delta_count": 0,
     "full": false,
     "incremental": true,
-    "modified_after": "2026-11-23T22:49:00+00:00"
+    "modified_after": "2026-11-24T08:47:16+00:00"
   },
   "items": [
     {
@@ -82814,6 +82814,6 @@
     }
   ],
   "resource": "events",
-  "scraped_at": "2026-11-24T09:47:22+00:00",
+  "scraped_at": "2026-11-24T22:21:24+00:00",
   "source": "ligikuu"
 }
