@@ -6253,7 +6253,7 @@
           }
         ]
       },
-      "count": 81,
+      "count": 82,
       "description": "",
       "id": 101,
       "link": "https://ligikuu.co.tz/venue/nyamagana-stadium/",
@@ -8333,6 +8333,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-24T22:21:21+00:00",
+  "scraped_at": "2026-11-25T08:22:30+00:00",
   "source": "ligikuu"
 }

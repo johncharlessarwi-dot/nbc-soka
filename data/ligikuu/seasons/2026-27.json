@@ -17605,7 +17605,7 @@
       "winner_id": 14178
     },
     {
-      "away_score": 1,
+      "away_score": 2,
       "away_team_id": 6046,
       "date": "2026-10-31T16:00:00",
       "date_gmt": "2026-10-31T13:00:00",
@@ -17621,12 +17621,12 @@
       "minutes": "90",
       "name": "Copco FC vs Endument",
       "outcome": {
-        "1665": "win",
-        "6046": "loss"
+        "1665": "draw",
+        "6046": "draw"
       },
       "raw_main_results": [
         "2",
-        "1"
+        "2"
       ],
       "raw_teams": [
         1665,
@@ -17640,7 +17640,7 @@
       "venues": [
         101
       ],
-      "winner_id": 1665
+      "winner_id": null
     },
     {
       "away_score": 5,
@@ -17981,13 +17981,13 @@
       "winner_id": 19476
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 19469,
-      "date": "2026-11-27T16:00:00",
-      "date_gmt": "2026-11-27T13:00:00",
+      "date": "2026-11-20T16:00:00",
+      "date_gmt": "2026-11-20T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 2,
       "home_team_id": 333,
       "id": 19499,
       "is_placeholder": false,
@@ -17996,8 +17996,14 @@
       ],
       "minutes": "90",
       "name": "Alliance vs Kigoma FC",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "19469": "loss",
+        "333": "win"
+      },
+      "raw_main_results": [
+        "2",
+        "0"
+      ],
       "raw_teams": [
         333,
         19469
@@ -18006,11 +18012,11 @@
         431
       ],
       "slug": "19499",
-      "status": "future",
+      "status": "publish",
       "venues": [
         101
       ],
-      "winner_id": null
+      "winner_id": 333
     },
     {
       "away_score": 2,
@@ -19331,7 +19337,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-24T22:21:19+00:00",
+  "scraped_at": "2026-11-25T08:22:28+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",

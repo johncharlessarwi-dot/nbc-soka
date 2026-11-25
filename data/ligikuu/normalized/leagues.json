@@ -84,7 +84,7 @@
       "slug": "first-league-group-b-2025-2026"
     },
     {
-      "count": 25,
+      "count": 26,
       "description": "",
       "id": 448,
       "name": "FIRST LEAGUE GROUP B 2026/2027",
@@ -261,6 +261,6 @@
     }
   ],
   "resource": "leagues",
-  "scraped_at": "2026-11-24T22:21:21+00:00",
+  "scraped_at": "2026-11-25T08:22:29+00:00",
   "source": "ligikuu"
 }
