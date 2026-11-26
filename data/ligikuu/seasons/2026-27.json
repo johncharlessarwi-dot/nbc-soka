@@ -3625,13 +3625,13 @@
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 1,
       "away_team_id": 278,
-      "date": "2026-11-29T19:00:00",
-      "date_gmt": "2026-11-29T16:00:00",
+      "date": "2026-11-26T19:00:00",
+      "date_gmt": "2026-11-26T16:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 4,
       "home_team_id": 322,
       "id": 17394,
       "is_placeholder": false,
@@ -3640,8 +3640,14 @@
       ],
       "minutes": "90",
       "name": "Geita Gold vs Coastal union",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "278": "loss",
+        "322": "win"
+      },
+      "raw_main_results": [
+        "4",
+        "1"
+      ],
       "raw_teams": [
         322,
         278
@@ -3650,11 +3656,11 @@
         431
       ],
       "slug": "17394",
-      "status": "future",
+      "status": "publish",
       "venues": [
         434
       ],
-      "winner_id": null
+      "winner_id": 322
     },
     {
       "away_score": null,
@@ -19337,7 +19343,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-26T08:07:22+00:00",
+  "scraped_at": "2026-11-26T21:26:50+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",

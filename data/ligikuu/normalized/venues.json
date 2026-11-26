@@ -91,7 +91,7 @@
       "slug": "black-rhino-stadium"
     },
     {
-      "count": 6,
+      "count": 7,
       "description": "",
       "id": 434,
       "name": "Bukombe, Geita",
@@ -468,6 +468,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-26T08:07:24+00:00",
+  "scraped_at": "2026-11-26T21:26:52+00:00",
   "source": "ligikuu"
 }
