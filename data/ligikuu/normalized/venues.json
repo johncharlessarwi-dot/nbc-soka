@@ -115,7 +115,7 @@
       "slug": "ccm-kambarage-shinyanga"
     },
     {
-      "count": 53,
+      "count": 54,
       "description": "",
       "id": 106,
       "name": "CCM Kirumba, Mwanza",
@@ -203,7 +203,7 @@
       "slug": "kagera-sugar"
     },
     {
-      "count": 35,
+      "count": 36,
       "description": "",
       "id": 95,
       "name": "Kaitaba Stadium, Bukoba",
@@ -411,7 +411,7 @@
       "slug": "singida-bs"
     },
     {
-      "count": 108,
+      "count": 109,
       "description": "",
       "id": 31,
       "name": "Sokoine Stadium, Mbeya",
@@ -419,7 +419,7 @@
       "slug": "sokoine-stadium-mbeya"
     },
     {
-      "count": 13,
+      "count": 14,
       "description": "",
       "id": 423,
       "name": "Tabora Boys Stadium, Tabora",
@@ -468,6 +468,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-26T21:26:52+00:00",
+  "scraped_at": "2026-11-27T21:09:37+00:00",
   "source": "ligikuu"
 }

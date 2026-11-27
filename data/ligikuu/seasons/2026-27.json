@@ -3529,13 +3529,13 @@
       "winner_id": 322
     },
     {
-      "away_score": null,
+      "away_score": 2,
       "away_team_id": 286,
       "date": "2026-11-27T16:00:00",
       "date_gmt": "2026-11-27T13:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 2,
       "home_team_id": 321,
       "id": 17391,
       "is_placeholder": false,
@@ -3544,8 +3544,14 @@
       ],
       "minutes": "90",
       "name": "Pamba Jiji vs namungo fc",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "286": "draw",
+        "321": "draw"
+      },
+      "raw_main_results": [
+        "2",
+        "2"
+      ],
       "raw_teams": [
         321,
         286
@@ -3554,20 +3560,20 @@
         431
       ],
       "slug": "17391",
-      "status": "future",
+      "status": "publish",
       "venues": [
         106
       ],
       "winner_id": null
     },
     {
-      "away_score": null,
+      "away_score": 0,
       "away_team_id": 267,
       "date": "2026-11-27T19:00:00",
       "date_gmt": "2026-11-27T16:00:00",
       "day": "",
       "format": "league",
-      "home_score": null,
+      "home_score": 0,
       "home_team_id": 269,
       "id": 17392,
       "is_placeholder": false,
@@ -3576,8 +3582,14 @@
       ],
       "minutes": "90",
       "name": "Kagera Sugar vs Dodoma Jiji",
-      "outcome": {},
-      "raw_main_results": [],
+      "outcome": {
+        "267": "draw",
+        "269": "draw"
+      },
+      "raw_main_results": [
+        "0",
+        "0"
+      ],
       "raw_teams": [
         269,
         267
@@ -3586,7 +3598,7 @@
         431
       ],
       "slug": "17392",
-      "status": "future",
+      "status": "publish",
       "venues": [
         95
       ],
@@ -19343,7 +19355,7 @@
       "winner_id": null
     }
   ],
-  "scraped_at": "2026-11-26T21:26:50+00:00",
+  "scraped_at": "2026-11-27T21:09:35+00:00",
   "season": {
     "id": 431,
     "name": "2026/27",

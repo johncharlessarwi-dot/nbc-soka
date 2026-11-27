@@ -1723,7 +1723,7 @@
           }
         ]
       },
-      "count": 53,
+      "count": 54,
       "description": "",
       "id": 106,
       "link": "https://ligikuu.co.tz/venue/ccm-kirumba-mwanza/",
@@ -3384,7 +3384,7 @@
           }
         ]
       },
-      "count": 35,
+      "count": 36,
       "description": "",
       "id": 95,
       "link": "https://ligikuu.co.tz/venue/kaitaba-stadium-bukoba/",
@@ -7310,7 +7310,7 @@
           }
         ]
       },
-      "count": 108,
+      "count": 109,
       "description": "",
       "id": 31,
       "link": "https://ligikuu.co.tz/venue/sokoine-stadium-mbeya/",
@@ -7461,7 +7461,7 @@
           }
         ]
       },
-      "count": 13,
+      "count": 14,
       "description": "",
       "id": 423,
       "link": "https://ligikuu.co.tz/venue/tabora-boys-stadium-tabora/",
@@ -8333,6 +8333,6 @@
     }
   ],
   "resource": "venues",
-  "scraped_at": "2026-11-26T21:26:52+00:00",
+  "scraped_at": "2026-11-27T21:09:37+00:00",
   "source": "ligikuu"
 }
